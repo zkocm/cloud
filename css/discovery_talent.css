@@ -196,12 +196,6 @@ body{
 }
 
 .d_t_pagination a{
-	text-decoration: none;
-	color: #666666;
-	margin-right: 10px;
-}
-
-.d_t_pagination a button{
 	font-family: "microsoft yahei";
 	font-size: 13px;
 	color: #666666;
@@ -213,9 +207,27 @@ body{
 	display: inline-block;
 	outline: medium;
 	margin-right: 10px;
+	line-height: 44px;
 }
 
-button.d_t_pagination_active{
+@media only screen and (min-width: 1920px) {
+	.d_t_pagination a{
+		font-family: "microsoft yahei";
+		font-size: 13px;
+		color: #666666;
+		text-decoration: none;
+		width: 47px;
+		height: 44px;
+		border: none;
+		background-color: #FFFFFF;
+		display: inline-block;
+		outline: medium;
+		margin-right: 10px;
+		line-height: 44px;
+	}
+}
+
+.d_t_pagination_active{
 	font-family: "microsoft yahei";
 	font-size: 13px;
 	color: #FFFFFF !important;
@@ -229,12 +241,12 @@ button.d_t_pagination_active{
 	margin-right: 10px;
 }
 
-button.d_t_paginationfirst{
+.d_t_paginationfirst{
 	padding-left: 1px;
 	padding-right: 1px;
 }
 
-button.d_t_paginationlast{
+.d_t_paginationlast{
 	padding-left: 1px;
 	padding-right: 1px;
 	margin-right: 0px !important;

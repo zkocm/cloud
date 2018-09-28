@@ -183,6 +183,12 @@
 	margin-top: 28px;
 }
 
+@media only screen and (min-width: 1920px) {
+	.eb_cc_bottomdivimg{
+		margin-top: 24px;
+	}
+}
+
 .eb_cc_bottomtable{
 	font-family: "microsoft yahei";
 	font-size: 14px;
