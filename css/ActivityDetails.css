@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#activitydetails{
+	color: #666666;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	background-color: #f8f8f8;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+.activitydetails_box{
+	background-color: #FFFFFF;
+	width: 1200px;
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.activitydetails_position{
+	padding-top: 30px;
+}
+
+.activitydetails_isolate{
+	height: 15px;
+	border-bottom: 1px #eeeeee solid;
+}
+
+.activitydetails_title{
+	margin-top: 40px;
+}
+
+.activitydetails-title-img{
+	margin-top: 30px;
+	height: 360px;
+	width: 1130px;
+	background-image:url(../img/huodongxiangiqng.png);
+}
+
+.activitydetails-title-span01{
+	color: #333333;
+	font-size: 20px;
+	font-weight: bold;
+}
+.activitydetails-title-img-describle{
+	margin-top: 30px;
+}
+
+.activitydetails-title-img-describle>span{
+	display: block;
+	margin-top: 10px;
+}
+
+.activitydetails_describle{
+	margin-top: 35px;
+	padding-bottom: 100px;
+}
+
+.activitydetails_describle-point{
+	margin-top: 15px;
+}
+
+.activitydetails_describle span{
+	display: block;
+	line-height: 2em;
+}
+
+.activitydetails_describle-span01{
+	color: #333333;
+}
