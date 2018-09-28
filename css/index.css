@@ -8,6 +8,7 @@
 ul{
     list-style:none;
 }
+
 .wrapper a {
     color: #333;
     font-family: "Microsoft YaHei UI";
@@ -25,6 +26,7 @@ p{
     height: 75px;
     background-color: #fff;
 }
+
 .nav{
     height: 100%;
     width: 1200px;
@@ -175,6 +177,25 @@ p{
     margin-right: 10px;
 }
 
-
-
-
+@media only screen and (min-width: 1903px) {
+	.wrapper{
+	    width: 1899px;
+	    height: 75px;
+	    background-color: #fff;
+	    margin: 0 auto;
+	}
+	.nav-second{
+		width: 1899px;
+		margin: 0 auto;
+	}
+	.index_content{
+		width: 1899px;
+		margin: 0 auto;
+	}
+	.foot{
+		width: 1899px;
+	    height: 170px;
+	    background-color: #3c3c3c;
+	    margin: 0 auto;
+	}
+}

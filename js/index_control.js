@@ -105,6 +105,7 @@ function adm_left_navigation(){
 
 /*function adm_left_navigation(){
 	$("#index_content").load("nor_left_navigation.html");
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }*/
 
 function index(){
