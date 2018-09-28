@@ -33,6 +33,11 @@ function KoChiPort(){
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
+function ThrowTogether(){
+	$("#index_content").load("ThrowTogether.html");
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
+}
+
 function NewYoung(){
 	$("#index_content").load("NewYoung.html");
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
@@ -95,6 +100,11 @@ function find_server(){
 
 function gywm(){
 	$("#index_content").load("gywm.html");
+	$("html,body").finish().animate({"scrollTop":"0px"},0);
+}
+
+function ActivityDetails(){
+	$("#index_content").load("ActivityDetails.html");
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
