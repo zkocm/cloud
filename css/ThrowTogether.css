@@ -1,0 +1,51 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#throwtogether{
+	background-color: #F8F8F8;
+	font-family: "microsoft yahei";
+}
+
+.throwtogether_logo{
+	height: 460px;
+	background:url(../img/tyh_bg.jpg) no-repeat;
+}
+
+.throwtogether_describle{
+	text-align: center;
+	margin: 40px auto 0 auto;
+	width: 1200px;
+	padding-bottom: 100px;
+}
+
+.throwtogether_industry_logo{
+	float: left;
+}
+
+.throwtogether_industry_name{
+	width: 600px;
+	height: 240px;
+	float: left;
+	background-color: #FFFFFF;
+}
+
+.throwtogether_industry_name span{
+	display: block;
+}
+
+.throwtogether_span01{
+	margin-top: 93px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.throwtogether_span02{
+	color: rgba(153,153,153,0.6);
+	font-size: 12px;
+}
+
+.clearfix{
+	clear: both;
+}
