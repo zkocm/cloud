@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#cloudinnovation{
+	width: 100%;
+	font-family: "microsoft yahei";
+	font-size: 22px;
+	color: #333333;
+	background-color: #F8F8F8;
+}
+.clearfix{
+	clear: both;
+}
+
+.cloudinnovation_logo{
+	height: 460px;
+	background-image: url(../img/ycl_bg.png);
+}
+
+.cloudinnovation_industry{
+	width: 1200px;
+	margin: 40px auto 0 auto;
+}
+
+.cloudinnovation_industry_sector_single ,.cloudinnovation_industry_sector_double{
+	height: 240px;
+}
+.cloudinnovation_industry_logo{
+	width: 600px;
+	height: 240px;
+	float: left;
+}
+.cloudinnovation_industry_name{
+	width: 600px;
+	height: 240px;
+	float: left;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.cloudinnovation_industry_descrble{
+	padding-top: 93px;
+	text-align: center;
+}
+
+.cloudinnovation_industry_descrble span{
+	display: block;
+}
+.cloudinnovation_tilte{
+	margin-top: 100px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.cloudinnovation_making{
+	width: 20px;
+	height: 2px;
+	background-color: #1874dd;
+	margin: 0 auto;
+}
+
+.cloudinnovation_collaboration{
+	width: 1200px;
+	height: 400px;
+	padding-top: 40px;
+	/*padding-bottom: 100px;*/
+	margin: 0 auto;
+}
+.cloudinnovation_collaboration img{
+	width: 295px;
+}

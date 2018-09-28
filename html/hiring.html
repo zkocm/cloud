@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    <link rel="stylesheet" href="../css/bootstrap.min.css" />-->
+    <link rel="stylesheet" href="../css/hiring.css">
+<!--    <script src="../js/jquery-1.11.1.min.js"></script>-->
+</head>
+<body>
+<div class="wrapper-hiring">
+    <div class="head group">
+        <div class="title item basic-information">
+            <span>基本信息</span>
+        </div>
+        <div class="item job-title">
+            <span>
+                职位名称
+            </span>
+            <input type="text" value="UI设计">
+        </div>
+        <div class="item degree-required" >
+            <span>学历要求</span>
+            <select name="" id="">
+                <option value="">
+                    不限
+                </option>
+            </select>
+        </div>
+        <div class="item work-experience">
+            <span>
+                工作经验
+            </span>
+            <select name="" id="">
+                <option value="">不限</option>
+            </select>
+        </div>
+        <div class="item working-place">
+            <span>
+                工作地点
+            </span>
+            <select name="" id="">
+                <option value="">
+                    娄星区
+                </option>
+            </select>
+        </div>
+        <div class="item salary">
+            <span>薪资待遇
+            </span>
+            <select name="" id="">
+                <option value="">
+                    6k
+                </option>
+            </select>
+            <span class="salary-center">
+                至
+            </span>
+            <select class="second" name="" id="">
+                <option value="">8k</option>
+            </select>
+
+
+            <label>
+                <div class="icon">
+                </div>
+                <input class="negotiable" type="checkbox">
+            </label>
+            <span class="footer">面议</span>
+
+
+
+        </div>
+    </div>
+    <div class="body group">
+        <div class="title item job-description"><span>职位描述</span></div>
+        <div class="area content"><textarea name="" id="" cols="30" rows="10">湖南省永磁测控技术有限公司隶属联众集团，为湖南省联众科技有限公司控股子公司，是联众旗下面向永磁工业自动化磁测量的专项企业
+                </textarea></div>
+
+    </div>
+    <div class="h-foot group">
+        <div class="job-require item title"><span>职位要求</span></div>
+        <div class="area content"><textarea name="" id="" cols="30" rows="10">湖南省永磁测控技术有限公司隶属联众集团，为湖南省联众科技有限公司控股子公司，是联众旗下面向永磁工业自动化磁测量的专项企业
+                </textarea></div>
+    </div>
+    <div class="release">
+        <input type="submit" value="发布">
+    </div>
+</div>
+<script>
+    $(".negotiable").on("change",function () {
+        if($(".negotiable").is(":checked")){
+            $(".icon").css("background-image","url(../img/gongzimianyi02.png)");
+        }else{
+            $(".icon").css("background-image","url(../img/gongzimianyi01.png)");
+        }
+    });
+</script>
+</body>
+</html>

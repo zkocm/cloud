@@ -1,0 +1,271 @@
+body{
+	background-color: #F8F8F8;	
+}
+
+.ic_main{
+	width: 1200px;
+	margin: auto;
+}
+
+.ic_info{
+	width: 900px;
+	margin: auto;
+	background-color: #FFFFFF;
+	padding-top: 31px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 100px;
+	display: inline-block;
+	float: left;
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.06);
+}
+
+.ic_infotitle a{
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	color: #999999;
+	text-decoration: none;
+}
+
+.ic_infotitle a:not(:first-child){
+	margin-left: 50px;
+}
+
+.ic_infotitlea{
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	color: #1874DC !important;
+	text-decoration: none;
+	border-bottom: 3px #1874DC solid;
+	padding-bottom: 20px;
+}
+
+.ic_infoline{
+	border-bottom: 1px #EEEEEE solid;
+	margin-top: 20px;
+	margin-bottom: 36px;
+	width: 840px;
+}
+
+.ic_infopresentation{
+	width: 840px;
+}
+
+.ic_infoimg{
+	width: 260px;
+	height: 160px;
+	display: inline-block;
+	float: left;
+}
+
+.ic_infocontent{
+	width: 560px;
+	height: 160px;
+	display: inline-block;
+	margin-left: 20px;
+	float: left;
+	position: relative;
+}
+
+.ic_infocontent div:first-child{
+	font-family: "microsoft yahei";
+	font-size: 20px;
+	color: #333333;
+	margin-top: 14px;
+	margin-bottom: 10px;
+}
+
+.ic_infocontent div:first-child a{
+	font-family: "microsoft yahei";
+	font-size: 20px;
+	color: #333333;
+	text-decoration: none;
+}
+
+.ic_infocontent div:first-child a:hover{
+	font-family: "microsoft yahei";
+	font-size: 20px;
+	color: #1874DC;
+	text-decoration: none;
+}
+
+.ic_infocontent div + div{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #666666;
+}
+
+.ic_infobotttomdata{
+	display: inline;
+	position: absolute;
+	bottom: 10px;
+}
+
+.ic_infobotttomdata span{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #999999;
+	vertical-align: middle;
+}
+
+.ic_infobotttomdata img{
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+.ic_infobotttomdata img ~ img{
+	margin-left: 30px;
+}
+
+.ic_infosplitline{
+	width: 840px;
+	border-bottom: 1px #E7E7E7 dashed;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.ic_pagination{
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+	padding-bottom: 40px;
+}
+
+.ic_pagination a{
+	text-decoration: none;
+	color: #666666;
+	margin-right: 10px;
+}
+
+.ic_pagination a button{
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #666666;
+	text-decoration: none;
+	width: 45px;
+	height: 44px;
+	border: none;
+	background-color: #FFFFFF;
+	display: inline-block;
+	outline: medium;
+	margin-right: 10px;
+}
+
+button.ic_pagination_active{
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #FFFFFF !important;
+	text-decoration: none;
+	width: 45px;
+	height: 44px;
+	border: none;
+	background-color: #1874dc !important;
+	display: inline-block;
+	outline: medium;
+	margin-right: 10px;
+}
+
+button.ic_paginationfirst{
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+button.ic_paginationlast{
+	padding-left: 1px;
+	padding-right: 1px;
+	margin-right: 0px !important;
+}
+
+div.ic_pushbar{
+	width: 280px;
+	height: 295px;
+	background-color: #FFFFFF;
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+	padding: 31px 20px 0px 20px;
+	margin-left: 20px;
+	overflow: hidden;
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.06);
+}
+
+div.ic_pushbar div:first-child{
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	color: #999999;
+	margin-bottom: 30px;
+}
+
+div.ic_pushbar div:not(:first-child){
+	margin-bottom: 10px;
+}
+
+div.ic_pushbar a{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #666666;
+	text-decoration: none;
+	display: inline-block;
+	width: 222px;
+}
+
+div.ic_pushbar a:hover{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #1874dc;
+	text-decoration: none;
+}
+
+div.ic_pushbar span{
+	content: url(../img/zixun_jt.png);
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 5px;
+}
+
+div.ic_searchbar{
+	background: url(../img/zixun_bg.png);
+	width: 100%;
+	height: 106px;
+	margin-bottom: 20px;
+}
+
+div.ic_searchbar > div{
+	width: 935px;
+	height: 46px;
+	margin: auto;
+	position: relative;
+}
+
+div.ic_searchbox{
+	width: 935px;
+	height: 46px;
+	position: absolute;
+	top: 30px;
+}
+
+div.ic_searchbox input:first-child{
+	width: 790px;
+	height: 46px;
+	outline: medium;
+	border: none;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #999999;
+	float: left;
+	padding-left: 30px;
+}
+
+div.ic_searchbox input + input{
+	width: 145px;
+	height: 46px;
+	outline: medium;
+	border: none;
+	font-family: "microsoft yahei";
+	font-size: 18px;
+	color: #FFFFFF;
+	background-color: #1874dc;
+	float: left;
+}

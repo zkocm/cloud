@@ -1,0 +1,74 @@
+body{
+	background-color: #F8F8F8;
+}
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+}
+a{
+	outline: none;
+	text-decoration:none; 
+}
+#publishtask{
+	width: 900px;
+	background-color: #FFFFFF;
+}
+.task_list{
+	padding: 50px 60px;
+}
+.task_list_a span{
+	display: block;
+}
+
+.divider{
+	margin: 0 6px;
+	height: 10px;
+	color: #D5D5D5;
+}
+
+.task_a_logo{
+	float: left;
+}
+.task_a_logo img{
+	width: 60px;
+	height: 60px;
+}
+.task_a_people{
+	float: left;
+	margin-left:16px;
+	margin-top: 20px;
+}
+.task_a_update{
+	float: right;
+	text-align: right;
+}
+.task_a_operation{
+	margin-top: 10px;
+}
+.task_a_operation span{
+	display: inline;
+}
+.clearfix{
+	clear: both;
+}
+.dottedline{
+	border-bottom: 1px #E7E7E7 dashed ;
+	margin: 20px 0;
+}
+.publish_btn{
+	margin: 0 60px 50px 0;
+	float: right;
+}
+.publish_btn input{
+	width:114px;
+	height:38px;
+	margin-left: 20px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background-color: #1874DD;
+	color: #FFFFFF;
+}
+

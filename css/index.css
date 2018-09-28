@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei UI";
+    font-size: 16px;
+    color: #666;
+}
+ul{
+    list-style:none;
+}
+.wrapper a {
+    color: #333;
+    font-family: "Microsoft YaHei UI";
+    font-size: 16px;
+    text-decoration: none;
+}
+a:hover{
+    color:#333;
+}
+p{
+    margin: 0px;
+}
+.wrapper{
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+}
+.nav{
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav-left{
+    width: 150px;
+    height: 75px;
+    float: left;
+}
+.nav-center{
+    width: 600px;
+    height: 75px;
+    float: left;
+}
+.nav-center li{
+    float:left;
+}
+.nav-center li a{
+    display: inline-block;
+    height: 75px;
+    width: 110px;
+    line-height: 75px;
+    text-align:center;
+    text-decoration:none;
+}
+.nav-center li a:hover{
+    background-color: #f9f9f9;
+    border-top: 2px solid #1874dc;
+}
+.nav-right{
+    width: 190px;
+    height: 75px;
+    float: right;
+    /*border: 1px solid black;*/
+}
+.nav-right li{
+    font-size: 16px;
+    float:right;
+}
+.nav-right .sign-in{
+    color: #333;
+    float:left;
+}
+.nav-right li a{
+    display: inline-block;
+    height: 75px;
+    width: 50px;
+    line-height: 75px;
+    text-align:center;
+    text-decoration:none;
+}
+.nav-second{
+    position: absolute;
+    display: none;
+    height: 100px;
+    width: 100%;
+    background-color: #f8f8f8;
+    z-index: 10;
+
+}
+.nav-second-content{
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav-second .ns-item{
+    float: left;
+    height: 100px;
+    width: 240px;
+    padding: 30px 0 0 0;
+    color: #333333;
+}
+.nav-second .ns-item a{
+    height: 40px;
+    width: 240px;
+    display: block;
+
+}
+
+.ns-item .logo{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.ns-item .text{
+    float: left;
+    height: 40px;
+    width: 170px;
+}
+.ns-item .text .top{
+    line-height: 16px;
+    height: 16px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.ns-item .text .down{
+    line-height: 14px;
+    height: 14px;
+    font-size: 14px;
+    color: #999999;
+}
+
+
+.foot{
+    height: 170px;
+    background-color: #3c3c3c;
+}
+.content{
+    width: 1214px;
+    margin: 0 auto;
+}
+.foot .content .top{
+    float: left;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.foot .content .down{
+    float: left;
+    width: 900px;
+}
+.foot .content .down .address{
+    float: left;
+    width: 400px;
+}
+.foot .content .down .phone{
+    float: left;
+    width: 200px;
+}
+.foot .content .down span{
+    padding: 0px 0px 0px 0px;
+    font-size: 16px;
+    color: rgba(255,255,255,0.53);
+    display: inline-block;
+    height: 27px;
+    line-height: 27px;
+
+    /*line-height: 27px;*/
+}
+.down .ig{
+    position: relative;
+    top: -2px;
+    margin-right: 10px;
+}
+
+
+
+

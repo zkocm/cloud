@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<link rel="stylesheet" href="../css/bootstrap.min.css" />-->
+    <link rel="stylesheet" href="../css/looking-job.css">
+    <!--<script src="../js/jquery-1.11.1.min.js"></script>-->
+
+</head>
+<body>
+    <!--<div class="wrapper">
+        <div class="nav">
+            <ul class="nav-left"><li><a href="#"><img src="../img/logo.png" alt=""></a></li></ul>
+            <ul class="nav-center">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">云创应用</a></li>
+                <li><a href="#">云创资源</a></li>
+                <li><a href="javascript:void(0)" onclick="clickadmnav()">云创服务</a></li>
+                <li><a href="#" onclick="clicknornav()">云创星空</a></li>
+            </ul>
+            <ul class="nav-right">
+                <li class="sign"><a class="sign-up" href="#">注册</a></li>
+                <li class="sign"><a class="" href="#">|</a></li>
+                <li class="sign"><a class="sign-in" href="#">登录</a></li>
+            </ul>
+        </div>
+</div>-->
+<div id="maincontent">
+<div class="search">
+    <div class="search-box">
+        <form action="#">
+            <span class="segmentation"></span>
+            <select class="find-st" name="" id="search_head" onchange="change_page()">
+                <option value="looking-job.html" selected="selected">找工作</option>
+                <option value="find_server.html">找服务</option>
+				<option value="discovery_talent.html">找人才</option>
+				<option value="find_task.html">找任务</option>
+            </select>
+
+            <div class="find-fd">
+                <input  type="text" placeholder="           输入职位、公司名称">
+            </div>
+            <input class="find-bt" type="submit" value="搜索">
+        </form>
+        <div></div>
+    </div>
+</div>
+<div id="mainbranchcontent">
+    <div class="condition">
+        <div class="content">
+            <div>
+                <ul>
+                    <li class="sort"><a href="">工作地点：</a></li>
+                    <li><a href="">不限</a></li>
+                    <li><a href="">娄星区</a></li>
+                    <li><a href="">双峰县</a></li>
+                    <li><a href="">冷水江市</a></li>
+                    <li><a href="">涟源市</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="sort"><a href="">工作经验：</a></li>
+                    <li><a href="">不限</a></li>
+                    <li><a href="">应届生</a></li>
+                    <li><a href="">1年以内</a></li>
+                    <li><a href="">1-3年</a></li>
+                    <li><a href="">3-5年</a></li>
+                    <li><a href="">5-10年</a></li>
+                    <li><a href="">10年以上</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="sort"><a href="">学历要求：</a></li>
+                    <li><a href="">不限</a></li>
+                    <li><a href="">初中及以下</a></li>
+                    <li><a href="">中专/中技</a></li>
+                    <li><a href="">大专</a></li>
+                    <li><a href="">本科</a></li>
+                    <li><a href="">硕士</a></li>
+                    <li><a href="">博士</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="sort"><a href="">薪资要求：</a></li>
+                    <li><a href="">不限</a></li>
+                    <li><a href="">1-2K</a></li>
+                    <li><a href="">2-3K</a></li>
+                    <li><a href="">3-4K</a></li>
+                    <li><a href="">4-5K</a></li>
+                    <li><a href="">5-6K</a></li>
+                    <li><a href="">7-8K</a></li>
+                    <li><a href="">8-9K</a></li>
+                    <li><a href="">9-10K</a></li>
+                    <li><a href="">10K以上</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="sort"><a href="">公司规模：</a></li>
+                    <li><a href="">不限</a></li>
+                    <li><a href="">0-20人</a></li>
+                    <li><a href="">20-49人</a></li>
+                    <li><a href="">50-99人</a></li>
+                    <li><a href="">100-499人</a></li>
+                    <li><a href="">500-999人</a></li>
+                    <li><a href="">1000-9999人</a></li>
+                    <li><a href="">10000人以上</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="position">
+        <div class="content">
+            <div class="content-head">
+                <ul>
+                    <li><a href="">默认排序</a></li>
+                    <li><a href="">最新职位</a></li>
+                </ul>
+            </div>
+            <div class="content-body">
+                <div class="item">
+                    <div class="top">
+                        <div class="nav-1">
+                            <span class="left"><a href="javascript:void(0)" onclick="position_details()">硬件工程师</a></span>
+                            <span class="right">5-7K</span>
+                        </div>
+                        <div class="nav-2">
+                            <span class="left">娄底市 | 工作经验不限 | 学历不限</span>
+                            <span class="right">09-08</span>
+                        </div></div>
+
+                    <div class="down">
+                        <div class="nav-1">
+                            <span class="left"><a href="javascript:void(0)" onclick="CompanyDetails()">湖南省联众科技有限公司</a></span>
+                            <span class="right"><a href="#">投递简历</a></span>
+                        </div>
+                        <div class="nav-2">
+                           <div class="left"><img src="../img/gs_pic.jpg" alt=""></div>
+                            <span class="right">50-99人</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="top">
+                        <div class="nav-1">
+                            <span class="left"><a href="javascript:void(0)" onclick="position_details()">硬件工程师</a></span>
+                            <span class="right">5-7K</span>
+                        </div>
+                        <div class="nav-2">
+                            <span class="left">娄底市 | 工作经验不限 | 学历不限</span>
+                            <span class="right">09-08</span>
+                        </div></div>
+
+                    <div class="down">
+                        <div class="nav-1">
+                            <span class="left"><a href="javascript:void(0)" onclick="CompanyDetails()">湖南省联众科技有限公司</a></span>
+                            <span class="right"><a href="#">投递简历</a></span>
+                        </div>
+                        <div class="nav-2">
+                           <div class="left"><img src="../img/gs_pic.jpg" alt=""></div>
+                            <span class="right">50-99人</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="item n-r">
+				<div class="top">
+                        <div class="nav-1">
+                            <span class="left"><a href="javascript:void(0)" onclick="position_details()">硬件工程师</a></span>
+                            <span class="right">5-7K</span>
+                        </div>
+                        <div class="nav-2">
+                            <span class="left">娄底市 | 工作经验不限 | 学历不限</span>
+                            <span class="right">09-08</span>
+                        </div></div>
+
+                    <div class="down">
+                        <div class="nav-1">
+                            <span class="left"><a href="javascript:void(0)" onclick="CompanyDetails()">湖南省联众科技有限公司</a></span>
+                            <span class="right"><a href="#">投递简历</a></span>
+                        </div>
+                        <div class="nav-2">
+                           <div class="left"><img src="../img/gs_pic.jpg" alt=""></div>
+                            <span class="right">50-99人</span>
+                    </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="top">
+                        <div class="nav-1">
+                            <span class="left">硬件工程师</span>
+                            <span class="right">5-7K</span>
+                        </div>
+                        <div class="nav-2">
+                            <span class="left">娄底市 | 工作经验不限 | 学历不限</span>
+                            <span class="right">09-08</span>
+                        </div></div>
+                    <div class="line"></div>
+                    <div class="down">
+                        <div class="nav-1">
+                            <span class="left">湖南省联众科技有限公司</span>
+                            <span class="right"><a href="#">投递简历</a></span>
+                        </div>
+                        <div class="nav-2">
+                            <div class="left"><img src="../img/gs_pic.jpg" alt=""></div>
+                            <span class="right">50-99人</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="top">
+                        <div class="nav-1">
+                            <span class="left">硬件工程师</span>
+                            <span class="right">5-7K</span>
+                        </div>
+                        <div class="nav-2">
+                            <span class="left">娄底市 | 工作经验不限 | 学历不限</span>
+                            <span class="right">09-08</span>
+                        </div></div>
+                    <div class="line"></div>
+                    <div class="down">
+                        <div class="nav-1">
+                            <span class="left">湖南省联众科技有限公司</span>
+                            <span class="right"><a href="#">投递简历</a></span>
+                        </div>
+                        <div class="nav-2">
+                            <div class="left"><img src="../img/gs_pic.jpg" alt=""></div>
+                            <span class="right">50-99人</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item n-r">
+                    <div class="top">
+                        <div class="nav-1">
+                            <span class="left">硬件工程师</span>
+                            <span class="right">5-7K</span>
+                        </div>
+                        <div class="nav-2">
+                            <span class="left">娄底市 | 工作经验不限 | 学历不限</span>
+                            <span class="right">09-08</span>
+                        </div></div>
+                    <div class="line"></div>
+                    <div class="down">
+                        <div class="nav-1">
+                            <span class="left">湖南省联众科技有限公司</span>
+                            <span class="right"><a href="#">投递简历</a></span>
+                        </div>
+                        <div class="nav-2">
+                            <div class="left"><img src="../img/gs_pic.jpg" alt=""></div>
+                            <span class="right">50-99人</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="top">
+                        <div class="nav-1">
+                            <span class="left">硬件工程师</span>
+                            <span class="right">5-7K</span>
+                        </div>
+                        <div class="nav-2">
+                            <span class="left">娄底市 | 工作经验不限 | 学历不限</span>
+                            <span class="right">09-08</span>
+                        </div></div>
+                    <div class="line"></div>
+                    <div class="down">
+                        <div class="nav-1">
+                            <span class="left">湖南省联众科技有限公司</span>
+                            <span class="right"><a href="#">投递简历</a></span>
+                        </div>
+                        <div class="nav-2">
+                            <div class="left"><img src="../img/gs_pic.jpg" alt=""></div>
+                            <span class="right">50-99人</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="top">
+                        <div class="nav-1">
+                            <span class="left">硬件工程师</span>
+                            <span class="right">5-7K</span>
+                        </div>
+                        <div class="nav-2">
+                            <span class="left">娄底市 | 工作经验不限 | 学历不限</span>
+                            <span class="right">09-08</span>
+                        </div></div>
+                    <div class="line"></div>
+                    <div class="down">
+                        <div class="nav-1">
+                            <span class="left">湖南省联众科技有限公司</span>
+                            <span class="right"><a href="#">投递简历</a></span>
+                        </div>
+                        <div class="nav-2">
+                            <div class="left"><img src="../img/gs_pic.jpg" alt=""></div>
+                            <span class="right">50-99人</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item n-r">
+                    <div class="top">
+                        <div class="nav-1">
+                            <span class="left">硬件工程师</span>
+                            <span class="right">5-7K</span>
+                        </div>
+                        <div class="nav-2">
+                            <span class="left">娄底市 | 工作经验不限 | 学历不限</span>
+                            <span class="right">09-08</span>
+                        </div></div>
+                    <div class="line"></div>
+                    <div class="down">
+                        <div class="nav-1">
+                            <span class="left">湖南省联众科技有限公司</span>
+                            <span class="right"><a href="#">投递简历</a></span>
+                        </div>
+                        <div class="nav-2">
+                            <div class="left"><img src="../img/gs_pic.jpg" alt=""></div>
+                            <span class="right">50-99人</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="top">
+                        <div class="nav-1">
+                            <span class="left">硬件工程师</span>
+                            <span class="right">5-7K</span>
+                        </div>
+                        <div class="nav-2">
+                            <span class="left">娄底市 | 工作经验不限 | 学历不限</span>
+                            <span class="right">09-08</span>
+                        </div></div>
+                    <div class="line"></div>
+                    <div class="down">
+                        <div class="nav-1">
+                            <span class="left">湖南省联众科技有限公司</span>
+                            <span class="right"><a href="#">投递简历</a></span>
+                        </div>
+                        <div class="nav-2">
+                            <div class="left"><img src="../img/gs_pic.jpg" alt=""></div>
+                            <span class="right">50-99人</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="top">
+                        <div class="nav-1">
+                            <span class="left">硬件工程师</span>
+                            <span class="right">5-7K</span>
+                        </div>
+                        <div class="nav-2">
+                            <span class="left">娄底市 | 工作经验不限 | 学历不限</span>
+                            <span class="right">09-08</span>
+                        </div></div>
+                    <div class="line"></div>
+                    <div class="down">
+                        <div class="nav-1">
+                            <span class="left">湖南省联众科技有限公司</span>
+                            <span class="right"><a href="#">投递简历</a></span>
+                        </div>
+                        <div class="nav-2">
+                            <div class="left"><img src="../img/gs_pic.jpg" alt=""></div>
+                            <span class="right">50-99人</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item n-r">
+                    <div class="top">
+                        <div class="nav-1">
+                            <span class="left">硬件工程师</span>
+                            <span class="right">5-7K</span>
+                        </div>
+                        <div class="nav-2">
+                            <span class="left">娄底市 | 工作经验不限 | 学历不限</span>
+                            <span class="right">09-08</span>
+                        </div></div>
+                    <div class="line"></div>
+                    <div class="down">
+                        <div class="nav-1">
+                            <span class="left">湖南省联众科技有限公司</span>
+                            <span class="right"><a href="#">投递简历</a></span>
+                        </div>
+                        <div class="nav-2">
+                            <div class="left"><img src="../img/gs_pic.jpg" alt=""></div>
+                            <span class="right">50-99人</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-foot">
+                <div class="f-pagination">
+                    <a href="">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                    <a href="">4</a>
+                    <span>....</span>
+                    <a href="">100</a>
+                    <a href="">下一页</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--<div class="foot">
+    <div class="content">
+        <div class="top">关于我们</div>
+        <div class="down">
+            <div class="address"><img class="ig" src="../img/foot_dingwei.png" alt=""><span class="left">湖南省长沙市芯城科技园2栋</span></div>
+            <div class="phone"><img  class="ig" src="../img/foot_dianhua.png" alt=""><span class="right">400-998-7581</span></div>
+        </div>
+    </div>
+
+</div>-->
+
+<script type="text/javascript" src="../js/looking-job.js" ></script>
+
+</body>
+</html>

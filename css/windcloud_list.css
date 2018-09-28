@@ -1,0 +1,220 @@
+body{
+	background-color: #FFFFFF;	
+}
+
+.wcl_main{
+	width: 1200px;
+	margin: auto;
+}
+
+.wcl_head{
+	height: 360px;
+	width: 1200px;
+	margin-top: 30px;
+}
+
+.wcl_headimg_1{
+	width: 500px;
+	height: 360px;
+}
+
+.wcl_headimg_2{
+	width: 340px;
+	height: 175px;
+}
+
+.wcl_headimg_3{
+	width: 340px;
+	height: 175px;
+}
+
+.wcl_headimg_4{
+	width: 690px;
+	height: 175px;
+}
+
+.wcl_headdiv_1{
+	width: 500px;
+	height: 360px;
+	float: left;
+	position: relative;
+}
+
+.wcl_headshade_1{
+	position: absolute;
+	width: 500px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.2);
+	z-index: 5;
+	top: 320px;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.wcl_headdiv_2{
+	width: 340px;
+	height: 175px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+	position: relative;
+}
+
+.wcl_headshade_2{
+	position: absolute;
+	width: 340px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.2);
+	z-index: 5;
+	top: 135px;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.wcl_headdiv_3{
+	width: 340px;
+	height: 175px;
+	float: left;
+	position: relative;
+}
+
+.wcl_headshade_3{
+	position: absolute;
+	width: 340px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.2);
+	z-index: 5;
+	top: 135px;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.wcl_headdiv_4{
+	width: 690px;
+	height: 175px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	position: relative;
+}
+
+.wcl_headshade_4{
+	position: absolute;
+	width: 690px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.2);
+	z-index: 5;
+	top: 135px;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.wcl_info{
+	margin-top: 60px;
+	margin-bottom: 100px;
+	width: 1200px;
+}
+
+.wcl_infotitle a{
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	color: #999999;
+	text-decoration: none;
+}
+
+.wcl_infotitle a:first-child + a{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.wcl_infotitlea{
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	color: #1874DC !important;
+	text-decoration: none;
+	border-bottom: 3px #1874DC solid;
+	padding-bottom: 20px;
+}
+
+.wcl_infoline{
+	border-bottom: 1px #EEEEEE solid;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	width: 1200px;
+}
+
+.wcl_infopresentation{
+	width: 1200px;
+}
+
+.wcl_infoimg{
+	width: 260px;
+	height: 160px;
+	display: inline-block;
+	float: left;
+}
+
+.wcl_infocontent{
+	width: 910px;
+	height: 160px;
+	display: inline-block;
+	margin-left: 30px;
+	float: left;
+	position: relative;
+}
+
+.wcl_infocontent div:first-child{
+	font-family: "microsoft yahei";
+	font-size: 20px;
+	color: #333333;
+	margin-top: 14px;
+	margin-bottom: 10px;
+}
+
+.wcl_infocontent div + div{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #666666;
+}
+
+.wcl_infobotttomdata{
+	display: inline;
+	position: absolute;
+	bottom: 10px;
+}
+
+.wcl_infobotttomdata span{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #999999;
+	float: left;
+}
+
+.wcl_infobotttomdata img{
+	margin-right: 8px;
+	float: left;
+}
+
+.wcl_infobotttomdata img ~ img{
+	margin-left: 20px;
+	float: left;
+}
+
+.wcl_infosplitline{
+	width: 1200px;
+	border-bottom: 1px #E7E7E7 dashed;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}

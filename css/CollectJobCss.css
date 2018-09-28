@@ -1,0 +1,73 @@
+body{
+	background-color: #F8F8F8;
+}
+#warp{
+	position: relative;
+	width: 900px;	
+	background-color: #FFFFFF;
+}
+.job-box01{
+	padding: 50px 60px 20px 60px;
+}
+.job-box{
+	padding: 20px 60px;
+}
+.job-list{
+	font-family: "microsoft yahei";
+	height: 80px;
+	position: relative;
+	box-sizing: border-box;
+	border-bottom: 1px #E7E7E7 dashed ;
+}
+a{
+	text-decoration: none;
+}
+
+/*.job-a a{
+	color: #333333;
+	font-size: 16px;
+}
+.job-a span{
+	color: #1874dd;
+	font-size: 16px;
+}*/
+.company a{
+	color: #666666;
+	font-size: 14px;
+}
+.job-b .job-c{
+	font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+}
+.jobname{
+	display: inline-block;
+	cursor: pointer;
+	padding: 4px 0 7px 16px;
+}
+.update{
+	float: right;
+	/*margin-right: 60px;*/
+	color: #999999;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	margin-top: 6px;
+}
+.companyname , .operation{
+	display: inline-block;
+	cursor: pointer;
+	margin:-6px 0 0 16px ;
+}
+.operation-box{
+	float: right;
+	/*margin-right: 60px;*/
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	margin-top: -6px;
+}
+
+.divider{
+	margin: 0 10px;
+	height: 10px;
+	color: #D5D5D5;
+}

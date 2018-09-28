@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei UI";
+    font-size: 16px;
+    color: #666;
+}
+ul{
+    list-style:none;
+}
+a {
+    color: #333;
+    font-family: "Microsoft YaHei UI";
+    font-size: 16px;
+    text-decoration: none;
+}
+body.html{
+
+}
+p{
+    margin: 0px;
+}
+.xph-wrapper{
+    /*width: 1920px;*/
+    background-color: #f8f8f8;
+}
+.xph-head{
+    width: 100%;
+    height: 460px;
+    background-image: url(../img/szt_bg.png);
+    background-repeat: no-repeat;
+}
+.xph-body{
+    position: relative;
+    height: 496px;
+    background-color: #fff;
+}
+
+
+
+
+
+.sy-szt-content{
+    position: absolute;
+    top:60px;
+    right: 0;
+    left: 0;
+    width: 1200px;
+    height: 302px;
+    margin: 0 auto;
+}
+.sy-szt-content .title{
+    color: #333;
+    font-size: 22px;
+    height: 74px;
+    text-align: center;
+    font-weight: bold;
+}
+.sy-szt-content .title .line{
+    height: 2px;
+    width: 20px;
+    background-color: #1874dc;
+    margin: 0 auto;
+    position: relative;
+    top: 4px;
+}
+.sy-szt-content .bg{
+    float: left;
+    height: 228px;
+    width: 455px;
+    margin-right: 30px;
+}
+.sy-szt-content  .newsbox{
+    float: right;
+    height: 228px;
+    width: 715px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+    /*background-color: #000;*/
+    /*padding: 30px 60px 25px 60px;*/
+    /*background: rgba(0,0,0,0.5)*/
+}
+.newsbox ul{
+    height: 228px;
+}
+.newsbox ul li{
+    height: 35px;
+}
+.newsbox .logo{
+    float: left;
+    margin-right: 10px;
+}
+.newsbox img{
+    /*line-height: 14px;*/
+}
+.newsbox .text{
+    float: left;
+
+}
+.newsbox .watch-logo{
+    float: right;
+    margin-right: 10px;
+
+}
+.newsbox .watch{
+    float: right;
+    line-height: 22px;
+
+}
+.newsbox .watch img{
+    vertical-align: baseline;
+}
+.newsbox .watch-num{
+    float: right;
+}
+.newsbox p{
+    font-size: 14px;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 4px;
+    color: #333;
+    width: 650px;
+    overflow: hidden;
+}
+.newsbox .last{
+    margin-bottom: 0;
+}
+
+.more{
+    height: 34px;
+    width: 130px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+.more a{
+    display: block;
+    height: 34px;
+    width: 130px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #1874dc;
+}
+.more a .text{
+    color: #FFFFFF;
+    margin-right: 10px;
+    height: 13px;
+    line-height: 34px;
+}
+.more a .logo {
+    line-height: 34px;
+}
+.more a  img{
+    vertical-align: middle;
+    margin-top: -2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.test{
+    position: relative;
+    height:100px;
+    width: 100px;
+    top: 50px;
+    left: 0px;
+    z-index: 9999;
+}
+.xph-foot{
+    height: 1600px;
+}
+.xf-content{
+    height: 1600px;
+    margin: 0 auto;
+    width: 1200px;
+    padding: 60px 0 100px 0;
+}
+.xf-list{
+
+}
+.list-picture,.list-text{
+    height: 240px;
+    width: 600px;
+    background-color: #fff;
+}
+.item-old .list-picture{
+    float: left;
+}
+.item-old .list-text{
+    float: right;
+}
+.item-even .list-picture{
+    float: right;
+}.item-even .list-text{
+     float: left;
+ }
+.xph-foot .title{
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+    color: #333333;
+    margin-top: 93px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.xph-foot .explain{
+    text-align: center;
+    height: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 10px;
+    color: rgba(153,153,153,0.6);
+}
+.sy-xph{
+    height: 580px;
+}

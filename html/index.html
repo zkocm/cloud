@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>云创星空</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js" ></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="nav">
+        <ul class="nav-left"><li><a href="javascript:void(0)" onclick="index()"><img src="../img/logo.png" alt=""></a></li></ul>
+        <ul class="nav-center">
+            <li><a href="javascript:void(0)" onclick="index()">首页</a></li>
+            <li><a href="javascript:void(0)">众创云联</a></li>
+            <li><a href="javascript:void(0)">众创成城</a></li>
+            <li><a href="javascript:void(0)">众包共享</a></li>
+            <li><a href="javascript:void(0)">云创总部</a></li>
+        </ul>
+        <ul class="nav-right">
+            <!--<li class="sign"><a class="sign-up" href="#">注册</a></li>
+            <li class="sign"><a class="" href="#">|</a></li>
+            <li class="sign"><a class="sign-in" href="#">登录</a></li>-->
+            <li class="sign"><a class="sign-in" href="javascript:void(0)">退出</a></li>
+            <li class="sign"><a class="sign-up" href="javascript:void(0)" onclick="adm_left_navigation()"><img src="../img/dh_morentouxiang.png" alt="" /></a></li>
+        </ul>
+    </div>
+    <div class="nav-second">
+        <div class="nav-second-content">
+            <div class="ns-item">
+                <a href="javascript:void (0)" onclick="szt()">
+                <div class="logo"><img src="../img/dh_yunlian01.png" alt=""></div>
+                <div class="text">
+                    <p class="top">商政通</p>
+                    <p class="down">政策咨询、政务代理</p>
+                </div>
+                </a>
+            </div>
+            <div class="ns-item">
+                <a href="javascript:void (0)" onclick="everybody_create_port()">
+                <div class="logo"><img src="../img/dh_yunlian02.png" alt=""></div>
+                <div class="text">
+                    <p class="top">众创港</p>
+                    <p class="down">众创、众包、众扶、众筹</p>
+                </div>
+                </a>
+            </div>
+            <div class="ns-item">
+                <a href="javascript:void (0)" onclick="CloudInnovation()">
+                <div class="logo"><img src="../img/dh_yunlian03.png" alt=""></div>
+                <div class="text">
+                    <p class="top">云创链</p>
+                    <p class="down">云创链合作</p>
+                </div>
+                </a>
+            </div>
+            <div class="ns-item">
+                <a href="javascript:void (0)" onclick="KoChiPort()">
+                <div class="logo"><img src="../img/dh_yunlian04.png" alt=""></div>
+                <div class="text">
+                    <p class="top">科创链</p>
+                    <p class="down">技术创新与服务</p>
+                </div>
+                </a>
+            </div>
+            <div class="ns-item">
+                <a href="javascript:void (0)">
+                <div class="logo"><img src="../img/dh_yunlian05.png" alt=""></div>
+                <div class="text">
+                    <p class="top">投融汇</p>
+                    <p class="down">金融与投资服务</p>
+                </div>
+            </div>
+            </a>
+        </div>
+    </div>
+    <div class="nav-second">
+        <div class="nav-second-content">
+            <div class="ns-item">
+                <a href="javascript:void (0)" onclick="NewYoung()">
+                    <div class="logo"><img src="../img/dh_chengcheng01.png" alt=""></div>
+                    <div class="text">
+                        <p class="top">新青为</p>
+                        <p class="down">产教融合</p>
+                    </div>
+                </a>
+            </div>
+            <div class="ns-item">
+                <a href="javascript:void (0)" onclick="NewHunanArmy()">
+                    <div class="logo"><img src="../img/dh_yunlian02.png" alt=""></div>
+                    <div class="text">
+                        <p class="top">新湘军</p>
+                        <p class="down">产业与园区</p>
+                    </div>
+                </a>
+            </div>
+            <div class="ns-item">
+                <a href="javascript:void (0)" onclick="windcloud_list()">
+                    <div class="logo"><img src="../img/dh_chengcheng03.png" alt=""></div>
+                    <div class="text">
+                        <p class="top">风云榜</p>
+                        <p class="down">创新创业竞赛</p>
+                    </div>
+                </a>
+            </div>
+            <div class="ns-item">
+                <a href="javascript:void (0)" onclick="cloud_e_commerce()">
+                    <div class="logo"><img src="../img/dh_chengcheng04.png" alt=""></div>
+                    <div class="text">
+                        <p class="top">云电商</p>
+                        <p class="down">商务专区</p>
+                    </div>
+                </a>
+            </div>
+            <div class="ns-item">
+                <a href="javascript:void (0)" onclick="xph()">
+                    <div class="logo"><img src="../img/dh_yunlian05.png" alt=""></div>
+                    <div class="text">
+                        <p class="top">湘品荟</p>
+                        <p class="down">名优品牌</p>
+                    </div>
+            </div>
+            </a>
+        </div>
+    </div>
+    <div class="nav-second">
+        <div class="nav-second-content">
+            <div class="ns-item">
+                <a href="javascript:void (0)" onclick="looking_job()">
+                    <div class="logo"><img src="../img/dh_gongxiang01.png" alt=""></div>
+                    <div class="text">
+                        <p class="top">求职专场</p>
+                        <p class="down">寻找优质人才</p>
+                    </div>
+                </a>
+            </div>
+            <div class="ns-item">
+                <a href="javascript:void (0)" onclick="discovery_talent()">
+                    <div class="logo"><img src="../img/dh_gongxiang02.png" alt=""></div>
+                    <div class="text">
+                        <p class="top">招聘专场</p>
+                        <p class="down">寻找心仪工作</p>
+                    </div>
+                </a>
+            </div>
+            <div class="ns-item">
+                <a href="javascript:void (0)" onclick="find_task()">
+                    <div class="logo"><img src="../img/dh_gongxiang03.png" alt=""></div>
+                    <div class="text">
+                        <p class="top">任务大厅</p>
+                        <p class="down">发布任务需求</p>
+                    </div>
+                </a>
+            </div>
+            <div class="ns-item">
+                <a href="javascript:void (0)" onclick="find_server()">
+                    <div class="logo"><img src="../img/dh_gongxiang04.png" alt=""></div>
+                    <div class="text">
+                        <p class="top">服务大厅</p>
+                        <p class="down">提供专业服务</p>
+                    </div>
+                </a>
+            </div>
+            </a>
+        </div>
+    </div>
+    <div class="nav-second">
+        <div class="nav-second-content">
+            <div class="ns-item">
+                <a href="javascript:void (0)" onclick="gywm()">
+                    <div class="logo"><img src="../img/dh_zongbu01.png" alt=""></div>
+                    <div class="text">
+                        <p class="top">关于我们</p>
+                        <p class="down">关于我们</p>
+                    </div>
+                </a>
+            </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<div id="index_content">
+
+</div>
+
+
+<div class="foot" id="foot">
+    <div class="content">
+        <div class="top">关于我们</div>
+        <div class="down">
+            <div class="address"><img class="ig" src="../img/foot_dingwei.png" alt=""><span class="left">湖南省长沙市芯城科技园2栋</span></div>
+            <div class="phone"><img  class="ig" src="../img/foot_dianhua.png" alt=""><span class="right">400-998-7581</span></div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="../js/index_control.js" ></script>
+<script src="../js/index.js"></script>
+</body>
+</html>

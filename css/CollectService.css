@@ -1,0 +1,58 @@
+body{
+	background-color: #F8F8F8;
+}
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+}
+a{
+	outline: none;
+	text-decoration:none; 
+}
+#collectservice{
+	width: 900px;
+	background-color: #FFFFFF;
+}
+
+.service_list{
+	padding: 50px 60px;
+}
+.service_a_logo{
+	float: left;
+}
+.service_a_logo img{
+	width: 60px;
+	height: 60px;
+}
+.service_a_people{
+	float: left;
+	margin-left:16px;
+}
+.service_list_a span{
+	display: block;
+}
+.service_a_update{
+	float: right;
+	text-align: right;
+}
+.service_a_operation{
+	margin-top: 10px;
+}
+.service_a_operation span{
+	display: inline;
+}
+.clearfix{
+	clear: both;
+}
+.dottedline{
+	border-bottom: 1px #E7E7E7 dashed ;
+	margin: 20px 0;
+}
+
+.divider{
+	margin: 0 10px;
+	height: 10px;
+	color: #D5D5D5;
+}

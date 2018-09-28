@@ -1,0 +1,57 @@
+body{
+	background-color: #F8F8F8;
+}
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+}
+a{
+	outline: none;
+	text-decoration:none; 
+}
+#collecttask{
+	width: 900px;
+	background-color: #FFFFFF;
+}
+
+.collecttask_list{
+	padding: 50px 60px;
+}
+.collecttask_a_logo{
+	float: left;
+}
+.collecttask_a_logo img{
+	width: 60px;
+	height: 60px;
+}
+.collecttask_a_people{
+	float: left;
+	margin-left:16px;
+}
+.collecttask_list_a span{
+	display: block;
+}
+.collecttask_a_update{
+	float: right;
+	text-align: right;
+}
+.collecttask_a_operation{
+	margin-top: 10px;
+}
+.collecttask_a_operation span{
+	display: inline;
+}
+.clearfix{
+	clear: both;
+}
+.dottedline{
+	border-bottom: 1px #E7E7E7 dashed ;
+	margin: 20px 0;
+}
+.divider{
+	margin: 0 10px;
+	height: 10px;
+	color: #D5D5D5;
+}

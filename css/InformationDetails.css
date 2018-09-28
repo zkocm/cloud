@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#informationdetails{
+	color: #666666;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	background-color: #f8f8f8;
+	width: 1920px;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+.informationdetails_box{
+	background-color: #FFFFFF;
+	width: 1200px;
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.informationdetails_position{
+	padding-top: 30px;
+}
+
+.informationdetails_isolate{
+	height: 15px;
+	border-bottom: 1px #eeeeee solid;
+}
+
+.informationdetails_title{
+	margin-top: 40px;
+}
+
+.informationdetails_title_describle{
+	margin-top: 25px;
+	color: #999999;
+}
+.informationdetails_title_describle img{
+	width: 20px;
+	height: 15px;
+	margin-right: 8px;
+}
+.informationdetails_title_describle span{
+	margin-right: 30px;
+}
+.informationdetails_describle{
+	margin-top: 35px;
+}
+.dottedline{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed #E7E7E7;
+}
+
+.informationdetails_polisy_a{
+	margin-top: 30px;
+}
+
+.informationdetails_polisy_a_describle{
+	padding: 20px 20px 0 20px;
+}
+
+.informationdetails_polisy_a_describle span{
+	display: inline-block;
+	line-height: 2em;
+}
+
+.informationdetails_base{
+	margin-top: 40px;
+	padding-bottom: 60px;
+}
+
+.informationdetails_base_a{
+	float: left;
+	
+}
+
+.informationdetails_base_b{
+	float: left;
+	padding-left: 30px;
+	width: 540px;
+}
+.informationdetails_base_b span{
+	display: inline-block;
+}
+
+.informationdetails_base_span01{
+	color: #333333;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.informationdetails_base_span02{
+	margin-top: 40px;
+	line-height: 2em;
+}

@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	outline: none;
+	text-decoration:none; 
+}
+#NewYoung{
+	width:100%;
+	height: 100%;
+	background-color: #FFFFFF;
+	font-size: 16px;
+	font-family: "microsoft yahei";
+}
+.clearfix{
+	clear: both;
+}
+.NewYoung_logo{
+	height: 460px;
+	background-image: url(../img/ny_banner.png);
+}
+
+.NewYoung_university_tilte ,.NewYoung_GuestTeam_tilte ,.NewYoung_Elite_tilte{
+	padding-top: 100px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.NewYoung_university_making{
+	width: 20px;
+	height: 2px;
+	background-color: #1874dd;
+	margin: 0 auto;
+}
+.NewYoung_university_describle{
+	text-align: center;
+	padding-top: 20px;
+}
+.NewYoung_university_describle span{
+	color: #999999;
+}
+.NewYoung_university_define{
+	position: absolute;
+	display: inline-flex;
+	height: 285px;
+	margin: 0 auto;
+
+}
+
+
+.NewYoung_university_a{
+	padding-top: 92px;
+	float: left;
+}
+.NewYoung_university_b{
+	float: left;
+	padding-left: 20px;
+}
+.NewYoung_university_b_name{
+	text-align: center;
+	color: #333333;
+	padding-top: 20px;
+}
+.NewYoung_university_c{
+	float: left;
+	padding-top: 92px;
+	padding-left: 20px;
+}
+.NewYoung_GuestTeam{
+	height: 726px;
+	color: #FFFFFF;
+	background-color: #1874DD;
+}
+.NewYoung_GuestTeam_making{
+	width: 20px;
+	height: 2px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+}
+.NewYoung_GuestTeam_describle{
+	text-align: center;
+	padding-top: 20px;	
+}
+.NewYoung_GuestTeam_define{
+	width: 1200px;
+	height: 400px;
+	/*margin-left: 360px;*/
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.NewYoung_GuestTeam_define a{
+	text-decoration: none;
+}
+.NewYoung_GuestTeam_a{
+	float: left;
+	width: 400px;
+}
+.NewYoung_GuestTeam_b{
+	height: 40px;
+	background-color: black;
+	opacity: 0.2;
+
+	position: relative;
+	top: -40px;
+}
+.NewYoung_GuestTeam_c{
+	text-align: center;
+	position: relative;
+	top: -74px;
+}
+.NewYoung_GuestTeam_d{
+	float: left;
+	margin-left: 10px;
+	width: 390px;
+}
+.NewYoung_GuestTeam_d span{
+	width:390px;
+	height: 195pxt;
+}
+.NewYoung_GuestTeam_f{
+	float: left;
+	padding-left: 10px;
+	width: 390px;
+}
+.NewYoung_Elite{
+	height: 650px;
+}
+.NewYoung_Edite_making{
+	width: 20px;
+	height: 2px;
+	background-color: #1874dd;
+	margin: 0 auto;
+}
+.NewYoung_Elite_describle{
+	width: 1200px;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+.NewYoung_Elite_a{
+	float: left;
+	box-shadow:0px 0px 9px rgba(0,0,0,0.06);
+	margin-left: 20px;
+	width: 280px;
+	height: 380px;
+}
+.NewYoung_Edite_name{
+	text-align: center;
+}
+.NewYoung_Edite_name span{
+	display: block;
+}
+
+
+.NewYoung_hzgx_box{
+	width: 1200px;
+	margin: 40px auto 60px auto;
+	/*overflow: hidden;*/
+}
+
+.NewYoung_hzgx{
+    margin-bottom: 50px;
+    position: relative;
+}
+.NewYoung_hzgx p{
+    font-size: 17px;
+    color: #333;
+    height: 17px;
+    line-height: 17px;
+}
+.NewYoung_show{
+    width: 1100px;
+    margin: 0 auto;
+    height: 277px;
+    overflow: hidden;
+    position: relative;
+
+}
+.NewYoung_gx-list{
+    /*width: 3000px;*/
+   	display: inline-flex;
+    height: 277px;
+    position: absolute;
+    left: 0px;
+}
+.left-arrow,.right-arrow{
+    height: 56px;
+    width: 25px;
+    position: absolute;
+    top: 94px;
+}
+.left-arrow{
+    left: 0px;
+}
+.right-arrow{
+    right: 0px;
+}
+.NewYoung_gx-item{
+    /*position: absolute;*/
+    float: left;
+    height: 277px;
+    width: 260px;
+    margin-right: 20px;
+    text-align: center;
+}
+.NewYoung_gx-text{
+    color: #333;
+    font-size: 17px;
+    height: 17px;
+    line-height: 17px;
+    margin-top: 20px;
+}

@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>找服务</title>
+		<!--<link rel="stylesheet" href="../css/bootstrap.min.css" />-->
+		<link rel="stylesheet" href="../css/find_server.css" />
+		<!--<script type="text/javascript" src="../js/jquery.min.js" ></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js" ></script>-->
+	</head>
+	<body>
+		
+		<!--搜索框-->
+		<div class="f_s_searchbar">
+			<div>
+				<div class="f_s_searchbox">
+					<select id="search_head" onchange="change_page()">
+						<option value="looking-job.html">找工作</option>
+		                <option value="find_server.html" selected="selected">找服务</option>
+						<option value="discovery_talent.html">找人才</option>
+						<option value="find_task.html">找任务</option>
+					</select>
+					<input type="text" name="" placeholder="输入服务商名称"/>
+					<input type="button" value="搜索" />
+				</div>
+			</div>
+		</div>
+		<!--//搜索框-->
+		
+		<!-- 搜索条件  -->
+		<div class="f_s_condition_div">
+			<div class="f_s_condition_content">
+				<ul class="f_s_condition_ul f_s_condition_ul_1">
+					<li>任务类型：</li>
+					<li><a href="javascript:void(0)" class="main_active">不限</a></li>
+					<li><a href="javascript:void(0)">个人发布</a></li>
+					<li><a href="javascript:void(0)">单位发布</a></li>
+				</ul>
+				<ul class="f_s_condition_ul f_s_condition_ul_2">
+					<li>专业分类：</li>
+					<li><a href="javascript:void(0)" class="main_active">不限</a></li>
+					<li><a href="javascript:void(0)">软件开发</a></li>
+					<li><a href="javascript:void(0)">网站建设</a></li>
+					<li><a href="javascript:void(0)">品牌设计</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- //搜索条件  -->
+		
+		<!--中间导航栏-->
+		<div>
+			<div class="f_s_midnav">
+				<span><a class="f_s_midachange" href="javascript:void(0)">默认排序</a></span>
+				<span><a href="javascript:void(0)">最新发布</a></span>
+				<span>
+					<a href="javascript:void(0)">价格排序</a>
+					<img src="../img/paixu.png" class="f_s_price"/>
+				</span>
+			</div>
+			<div class="f_s_midline"></div>
+		</div>
+		<!--//中间导航栏-->
+		
+		<div class="f_s_main">
+			
+			<!-- 个人信息简介 -->
+<!--			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_03.png" />
+					</div>
+					<div class="f_s_divside f_s_omitnor">
+						<div>
+							<span>陈一发</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+							<span>3年工作经验</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_03.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一发</span>
+						</div>
+						<div>
+							<span>技术顾问</span>
+							<span>品牌设计</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>个人作品：</span>
+							<span>淘宝年会宣传视频制作</span>
+						</div>
+						<div>
+							<img src="../img/yc_biaoqian.png" />
+							<span>个人标签：</span>
+							<span>ERP软件开发</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				
+			</div>-->
+			<!-- //个人信息简介 -->
+			
+			
+			<!-- 单位信息简介 -->
+			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_06.png" />
+					</div>
+					<div class="f_s_divside f_s_omit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<!-- 单位详细信息隐藏框 -->
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_06.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>网站建设</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>单位标签：</span>
+							<span>模板建站</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				<!-- //单位详细信息隐藏框 -->
+				
+			</div>
+			<!-- //单位信息简介 -->
+			
+			
+			<!-- 单位信息简介 -->
+			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_08.png" />
+					</div>
+					<div class="f_s_divside f_s_omit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<!-- 单位详细信息隐藏框 -->
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_08.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>网站建设</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>单位标签：</span>
+							<span>模板建站</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				<!-- //单位详细信息隐藏框 -->
+				
+			</div>
+			<!-- //单位信息简介 -->
+			
+			<!-- 单位信息简介 -->
+			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_06.png" />
+					</div>
+					<div class="f_s_divside f_s_omit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<!-- 单位详细信息隐藏框 -->
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_06.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>网站建设</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>单位标签：</span>
+							<span>模板建站</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				<!-- //单位详细信息隐藏框 -->
+				
+			</div>
+			<!-- //单位信息简介 -->
+			
+			<!-- 单位信息简介 -->
+			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_11.png" />
+					</div>
+					<div class="f_s_divside f_s_omit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<!-- 单位详细信息隐藏框 -->
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_11.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>网站建设</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>单位标签：</span>
+							<span>模板建站</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				<!-- //单位详细信息隐藏框 -->
+				
+			</div>
+			<!-- //单位信息简介 -->
+			
+			<!-- 单位信息简介 -->
+			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_06.png" />
+					</div>
+					<div class="f_s_divside f_s_omit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<!-- 单位详细信息隐藏框 -->
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_06.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>网站建设</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>单位标签：</span>
+							<span>模板建站</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				<!-- //单位详细信息隐藏框 -->
+				
+			</div>
+			<!-- //单位信息简介 -->
+			
+			<!-- 单位信息简介 -->
+			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_06.png" />
+					</div>
+					<div class="f_s_divside f_s_omit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<!-- 单位详细信息隐藏框 -->
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_06.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>网站建设</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>单位标签：</span>
+							<span>模板建站</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				<!-- //单位详细信息隐藏框 -->
+				
+			</div>
+			<!-- //单位信息简介 -->
+			
+			<!-- 单位信息简介 -->
+			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_06.png" />
+					</div>
+					<div class="f_s_divside f_s_omit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<!-- 单位详细信息隐藏框 -->
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_06.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>网站建设</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>单位标签：</span>
+							<span>模板建站</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				<!-- //单位详细信息隐藏框 -->
+				
+			</div>
+			<!-- //单位信息简介 -->
+			
+			<!-- 单位信息简介 -->
+			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_15.png" />
+					</div>
+					<div class="f_s_divside f_s_omit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<!-- 单位详细信息隐藏框 -->
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_15.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>网站建设</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>单位标签：</span>
+							<span>模板建站</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				<!-- //单位详细信息隐藏框 -->
+				
+			</div>
+			<!-- //单位信息简介 -->
+			
+			<!-- 单位信息简介 -->
+			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_12.png" />
+					</div>
+					<div class="f_s_divside f_s_omit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<!-- 单位详细信息隐藏框 -->
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_12.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>网站建设</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>单位标签：</span>
+							<span>模板建站</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				<!-- //单位详细信息隐藏框 -->
+				
+			</div>
+			<!-- //单位信息简介 -->
+			
+			<!-- 单位信息简介 -->
+			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_10.png" />
+					</div>
+					<div class="f_s_divside f_s_omit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<!-- 单位详细信息隐藏框 -->
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_10.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>网站建设</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>单位标签：</span>
+							<span>模板建站</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				<!-- //单位详细信息隐藏框 -->
+				
+			</div>
+			<!-- //单位信息简介 -->
+			
+			<!-- 单位信息简介 -->
+			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_10.png" />
+					</div>
+					<div class="f_s_divside f_s_omit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<!-- 单位详细信息隐藏框 -->
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_10.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>网站建设</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>单位标签：</span>
+							<span>模板建站</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				<!-- //单位详细信息隐藏框 -->
+				
+			</div>
+			<!-- //单位信息简介 -->
+			
+			<!-- 单位信息简介 -->
+			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_06.png" />
+					</div>
+					<div class="f_s_divside f_s_omit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<!-- 单位详细信息隐藏框 -->
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_06.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>网站建设</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>单位标签：</span>
+							<span>模板建站</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				<!-- //单位详细信息隐藏框 -->
+				
+			</div>
+			<!-- //单位信息简介 -->
+			
+			<!-- 单位信息简介 -->
+			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_14.png" />
+					</div>
+					<div class="f_s_divside f_s_omit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<!-- 单位详细信息隐藏框 -->
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_14.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>网站建设</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>单位标签：</span>
+							<span>模板建站</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				<!-- //单位详细信息隐藏框 -->
+				
+			</div>
+			<!-- //单位信息简介 -->
+			
+			<!-- 单位信息简介 -->
+			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_06.png" />
+					</div>
+					<div class="f_s_divside f_s_omit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<!-- 单位详细信息隐藏框 -->
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_06.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>网站建设</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>单位标签：</span>
+							<span>模板建站</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				<!-- //单位详细信息隐藏框 -->
+				
+			</div>
+			<!-- //单位信息简介 -->
+			
+			<!-- 单位信息简介 -->
+			<div class="f_s_content">
+				<div class="f_s_show" onmouseover="f_s_over(event)" onmouseout="f_s_out(event)">
+					<div class="f_s_divside">
+						<img src="../img/fangxing_13.png" />
+					</div>
+					<div class="f_s_divside f_s_omit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>图文平面设计标志品牌商标</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_s_line"></div>
+				<div class="f_s_btn">
+					<button><span>微信小程序</span></button>
+					<button><span>模板建站</span></button>
+				</div>
+			
+				<!-- 单位详细信息隐藏框 -->
+				<div class="f_s_hidcontent">
+					<div class="f_s_divside f_s_movimg">
+						<img src="../img/fangxing_13.png" />
+					</div>
+					<div class="f_s_divside f_s_hidomit">
+						<div>
+							<span>陈一飞设计事务所</span>
+						</div>
+						<div>
+							<span>网站建设</span>
+						</div>
+						<div>
+							<span><span>10</span>年工作经验</span>
+						</div>
+					</div>
+					<div class="f_s_divside_right">
+						<div>
+							<img src="../img/yc_shoucang01.png" onclick="f_s_change_pic(event)"/>
+							<span>收藏</span>
+						</div>
+					</div>
+					<div class="f_s_hidline"></div>
+					<div class="f_s_perinfo">
+						<div>
+							<img src="../img/yc_yingyong.png" />
+							<span>擅长领域：</span>
+							<span>营销视频</span>
+							<span>广告片</span>
+							<span>影视后期</span>
+							<span>宣传片</span>
+						</div>
+						<div>
+							<img src="../img/yc_zuopin.png" />
+							<span>单位标签：</span>
+							<span>模板建站</span>
+						</div>
+						<div>
+							<img src="../img/yc_dianhua.png" />
+							<span>联系电话：</span>
+							<span>18842682697</span>
+						</div>
+					</div>
+				</div>
+				<!-- //单位详细信息隐藏框 -->
+				
+			</div>
+			<!-- //单位信息简介 -->
+			
+			
+			<div style="clear: both;"></div>
+			<div class="f_s_pagination">
+				<a href="javascript:void(0)"><button class="f_s_paginationfirst">上一页</button></a>
+				<a href="javascript:void(0)"><button>1</button></a>
+				<a href="javascript:void(0)"><button class="f_s_pagination_active">2</button></a>
+				<a href="javascript:void(0)"><button>3</button></a>
+				<a href="javascript:void(0)"><button>4</button></a>
+				<a href="javascript:void(0)">...</a></li>
+				<a href="javascript:void(0)"><button>100</button></a>
+				<a href="javascript:void(0)"><button class="f_s_paginationlast">下一页</button></a>
+			</div>
+		</div>
+		
+		
+		
+		<script type="text/javascript" src="../js/find_server.js" ></script>
+		
+	</body>
+</html>

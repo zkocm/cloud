@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	outline: none;
+	text-decoration:none; 
+}
+#companydetails{
+	width: 100%;
+	background-color: #F8F8F8;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #333333;	
+}
+.clearfix{
+	clear: both;
+}
+.company_header{
+	color: #FFFFFF;
+	height: 235px;
+	background-image: url(../img/bg_gongsixiangqing.jpg);
+}
+.company_img01{
+	height: 235px;
+	width: 100%;	
+}
+.company_herder_box{
+	margin: 0 auto;
+	width: 1200px;
+	left: 280px;
+}
+.company_logo01{
+	margin-top: 45px;
+	float: left;
+	margin-right: 30px;
+}
+.company_img02{
+	width: 90px;
+	height: 90px;
+}
+.company_mark_name{
+	float: left;
+	margin-top: 45px;
+}
+.company_people{
+	margin-top: 110px;
+}
+.company_body{
+	margin: 0 auto;
+	width: 1200px;
+	height: 1050px;
+	background-color: #FFFFFF;
+	margin-top: -55px;
+}
+
+
+.company_cp_a span{
+	margin: 30px 0 0 10px;
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+}
+.company_blue{
+	float: left;
+	width: 3px;
+	height: 18px;
+	background: #1874DD;
+	margin: 33px 0 0 30px;
+}
+.company_cp_b{
+	margin: 20px 0 0 40px;
+}
+.company_cp_b span{
+	display: block;
+	margin-top: 20px;
+}
+.company_mark_b{
+	float: left;
+	margin-top: 10px;
+}
+.company_cp_c{
+	float: left;
+	margin: 30px 0 0 40px;
+	width: 500px;
+}
+.information_b ,.information_d{
+	margin-top: 20px;
+}
+.company_cp_d{
+	float: left;
+	width: 500px;
+	margin-top: 30px;
+}
+.company_mark_c{
+	margin-top: 10px;
+}
+.company_cp_f span{
+	margin: 30px 0 0 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.company_job_a{
+	margin: 30px 40px;
+	
+}
+.company_job_logo{
+	float: left;
+}
+.company_job_logo img{
+	width: 60px;
+	height: 60px;
+}
+.company_job_information01{
+	float: left;
+	margin-left: 20px;
+}
+.company_job_a span{
+	display: block;
+}
+.company_job_information02{
+	float: right;
+	text-align: right;
+}
+.dottedline{
+	border-bottom: 1px #E7E7E7 dashed ;
+	margin: 24px 0;
+}

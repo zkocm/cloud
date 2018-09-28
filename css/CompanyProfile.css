@@ -1,0 +1,221 @@
+/**{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei UI";
+    font-size: 16px;
+    color: #666;
+}*/
+body{
+	background-color: #F8F8F8 !important;
+}
+
+ul{
+    list-style:none;
+}
+a{
+    color: #333;
+    font-family: "Microsoft YaHei UI";
+    font-size: 16px;
+    text-decoration:none;
+}
+input[type=text]{
+    font-size: 14px;
+    color: #666666;
+    padding-left: 10px;
+    border: 1px solid #e4e4e4;
+
+}
+.wrapper-cppf{
+    float: right;
+    width: 900px;
+    background-color: #fff;
+}
+.head{
+    position: relative;
+    height: 260px;
+}
+.head .bg{
+    height: 130px;
+    width: 100%;
+    background-image: url(../img/gongsibg.png);
+}
+.head .lg{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left:390px;
+    top:70px;
+    border-radius: 100%;
+    background-color: #fff;
+    /*background-image: url(../img/rencai_pic.png);*/
+}
+.head .lg img{
+    position: absolute;
+    top: -1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 106px;
+    height: 106px;
+
+}
+.head .lg .name{
+    width: 100%;
+}
+.head .name span{
+    position: absolute;
+    font-size: 16px;
+    color: #666666;
+    margin: 0 auto;
+    left: 360px;
+    bottom: 25px;
+}
+.body{
+    width: 760px;
+    margin: 0 auto;
+}
+.body .body-top{
+    border-bottom: 1px dashed #d5d5d5;
+}
+.body .body-top>div{
+    /*float: left;*/
+    margin-bottom:20px;
+}
+.body .body-top .title{
+
+}
+.body .body-top .title span{
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+}
+.scale{
+    height: 40px;
+    margin-bottom: 20px;
+}
+.scale span,select{
+
+    float: left;
+
+}
+.scale select{
+    appearance: none;
+    -webkit-appearance: none;
+    padding-left: 10px;
+}
+.scale span{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 15px;
+}
+.scale span:after{
+    position: relative;
+    top: -26px;
+    left: 312px;
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-image: url(../img/xiala.png);
+}
+
+.scale select{
+    height: 40px;
+    width: 250px;
+    border: 1px solid #e4e4e4;
+    color: #666;
+}
+
+.introduction{
+    height: 200px;
+    margin-bottom: 30px;
+}
+.introduction span,textarea{
+    float: left;
+
+}
+.introduction span{
+    float: left;
+    margin-right: 15px;
+}
+.introduction textarea{
+    width:678px;
+    height: 200px;
+    resize:none;
+    padding: 15px;
+    line-height: 26px;
+    color: #666666;
+    font-size: 14px;
+    border-color: #e4e4e4;
+}
+
+.body .head{
+    padding: 0 0 30px 0;
+    margin-top:29px;
+}
+.body .head .title span{
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+}
+.title{
+    height: 40px;
+    margin-bottom: 20px;
+}
+.head>div{
+    height: 50px;
+    margin-bottom: 10px;
+}
+.head div span{
+    float: left;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 15px;
+}
+.head div input{
+    float: left;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 300px;
+}
+.head>.address input{
+    width: 698px;
+}
+.foot-cppf{
+    width: 760px;
+    margin: 0 auto;
+    height: 100px;
+    margin-top: 50px;
+
+}
+.foot-cppf .time{
+    font-size: 14px;
+    color: #333333;
+}
+.foot-cppf a{
+    margin-left: 20px;
+    font-size: 14px;
+    color: #1874dc;
+}
+.foot-cppf input{
+    cursor:pointer;
+    float: right;
+    font-size: 20px;
+    border: none;
+    height: 38px;
+    width: 114px;
+    background-color: #1774db;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+

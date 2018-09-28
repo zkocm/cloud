@@ -1,0 +1,65 @@
+body{
+	background-color: #F8F8F8;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+}
+a{
+	outline: none;
+	text-decoration:none; 
+}
+#collecttalent{
+	width: 900px;
+	background-color: #FFFFFF;
+}
+
+.collecttalent_list{
+	padding: 50px 60px;
+}
+.collecttalent_list a{
+	text-decoration: none;
+}
+.collecttalent_a_logo{
+	float: left;
+}
+.collecttalent_a_logo img{
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+}
+.collecttalent_a_people{
+	float: left;
+	margin-left:16px;
+}
+.collecttalent_list_a span{
+	display: block;
+}
+.collecttalent_a_update{
+	float: right;
+	text-align: right;
+}
+.collecttalent_a_operation{
+	margin-top: 10px;
+}
+.collecttalent_a_operation span{
+	display: inline;
+}
+.clearfix{
+	clear: both;
+}
+.dottedline{
+	border-bottom: 1px #E7E7E7 dashed ;
+	margin: 20px 0;
+}
+.collecttalent_span_a span{
+	display: inline;
+}
+.collecttalent_span_b{
+	margin-top: 10px;
+}
+.collecttalent_span_b span{
+	display: inline;
+}

@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#kochiport{
+	width: 100%;
+	font-size: 16px;
+}
+.clearfix{
+	clear: both;
+}
+
+.kochiport_logo{
+	height: 460px;
+	background-image: url(../img/kcg_bg.png);
+}
+
+.kochiport_describle{
+	height: 380px;
+}
+.kochiport_describle_a{
+	margin-left: 400px;
+	margin-top: 50px;
+	float: left;
+}
+
+.kochiport_describle_b{
+	margin-top: 120px;
+	margin-left: 40px;
+	width: 600px;
+	float: left;
+}
+.kochiport_describle_b span{
+	display: inline-block;
+	font-size: 16px;
+	color: #666666;
+	line-height: 2.3em;
+}
+
+.kochiport_center{
+	height: 434px;
+	background-image: url(../img/kcg_sdzx_bg.jpg);
+}
+
+.kochiport_center_tilte ,.kochiport_technology_tilte{
+	padding-top: 60px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.kochiport_center_making{
+	width: 20px;
+	height: 2px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+}
+
+.kochiport_center_img{
+	margin-top: 40px;
+}
+
+.kochiport_center_img01 ,.kochiport_center_img02 ,.kochiport_center_img03{
+	float: left;
+	width: 200px;
+	display: block;
+	text-align: center;
+}
+.kochiport_center_img01{
+	margin-left: 400px;
+}
+.kochiport_center_img02 ,.kochiport_center_img03{
+	margin-left: 260px;
+}
+
+.kochiport_technology_making{
+	width: 20px;
+	height: 2px;
+	background-color: #1874dd;
+	margin: 0 auto;
+}
+
+.kochiport_technology_box{
+	width: 1200px;
+	margin: 40px auto;
+	padding-bottom: 20px;
+}
+.kochiport_technology_box img{
+	widows: 380px;
+	height: 240px;
+}
+.kochiport_technology_img01{
+	float: left;
+	width: 380px;
+	display: block;
+	text-align: center;
+}
+.kochiport_technology_img02 ,.kochiport_technology_img03{
+	float: left;
+	width: 380px;
+	display: block;
+	text-align: center;
+	margin-left: 30px;
+}
+
+.kochiport_service{
+	background-color: #F8F8F8;
+}
+
+.kochiport_service_a{
+	width: 1200px;
+	margin: 40px auto 0 auto;
+	padding-bottom: 100px;
+}
+.kochiport_service_a_single ,.kochiport_service_a_double{
+	height: 240px;
+}
+
+.kochiport_service_a_logo{
+	width: 600px;
+	height: 240px;
+	float: left;
+}
+
+.kochiport_service_a_name{
+	width: 600px;
+	height: 240px;
+	float: left;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.kochiport_service_a_descrble{
+	padding-top: 93px;
+	text-align: center;
+}
+.kochiport_service_a_descrble span{
+	display: block;
+}

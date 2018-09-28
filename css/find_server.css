@@ -1,0 +1,389 @@
+body{
+	background-color: #F8F8F8;
+}
+
+
+.f_s_main{
+	width: 1212px;
+	margin: auto;
+}
+
+.f_s_content{
+	height: 163px;
+	width: 394px;
+	background-color: #FFFFFF;
+	padding: 20px;
+	margin: 5px;
+	display: inline-block;
+	float: left;
+}
+
+.f_s_divside, .f_s_divside_right{
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+.f_s_divside > img{
+	width: 60px;
+	height: 60px;
+}
+
+.f_s_divside div{
+	margin-left: 15px;
+}
+
+.f_s_divside div:first-child{
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+}
+
+.f_s_divside div + div{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #666666;
+}
+
+.f_s_divside div + div span{
+	display: inline-block;
+}
+
+.f_s_omit div + div span{
+	width:200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.f_s_omitnor div + div span{
+	width:120px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.f_s_omit div:first-child{
+	margin-bottom: 10px;
+}
+
+.f_s_divside div + div span:not(:first-child):before{
+	content: "/";
+}
+
+.f_s_line{
+	border-bottom: 1px #E7E7E7 dashed;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.f_s_btn button{
+	width: 100px;
+	height: 30px;
+	border: 1px solid #1874dc;
+	background-color: #FFFFFF;
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #1874dc;
+	outline: medium;
+}
+
+.f_s_content{
+	position: relative;
+}
+
+.f_s_hidcontent{
+	position: absolute;
+	z-index: 5;
+	width: 424px;
+	background-color: #FFFFFF;
+	padding: 30px;
+	margin: 5px;
+	display: none;
+	float: left;
+	top: -5px;
+	left: -5px;
+	pointer-events: none;
+	box-shadow: 1px 2px 17px 0px rgba(0, 0, 0, 0.09);
+}
+
+.f_s_movimg img{
+	margin-bottom: 10px;
+}
+
+.f_s_divside_right{
+	float: right;
+	text-align: right;
+	margin-top: 30px;
+}
+
+.f_s_divside_right img{
+	pointer-events: auto;
+}
+
+.f_s_divside_right span{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #666666;
+}
+
+.f_s_hidline{
+	border-bottom: 1px #E7E7E7 dashed;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.f_s_divside div + div span span{
+	color: #1874dc;
+}
+
+.f_s_perinfo div{
+	margin-top: 10px;
+}
+
+.f_s_perinfo div span{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #666666;
+}
+
+.f_s_hidomit div:not(:first-child){
+	margin-top: 10px;
+}
+
+
+.f_s_condition_ul{
+	padding-top: 17px;
+	padding-bottom: 17px;
+	padding-left: 0px;
+	margin-bottom: 0px;
+	font-size: 15px;
+}
+
+.f_s_condition_ul li:first-child{
+	display: inline;
+	padding-left: 17px;
+	padding-right: 17px;
+	font-size: 15px;
+	color: #999999;
+	padding-left: 0px;
+}
+
+.f_s_condition_ul li{
+	display: inline;
+	padding-left: 17px;
+	padding-right: 17px;
+	font-size: 15px;
+	color: #999999;
+}
+
+.f_s_condition_ul a{
+	font-family: "microsoft yahei";
+	font-size: 15px;
+	color: #333333;
+	text-decoration: none;
+}
+
+.main_active{
+	font-family: "microsoft yahei";
+	font-size: 15px;
+	color: #1874DC !important;
+	text-decoration: none !important;
+}
+
+.f_s_condition_ul a:hover{
+	font-family: "microsoft yahei";
+	font-size: 15px;
+	color: #999999;
+	text-decoration: none;
+}
+
+.f_s_condition_div{
+	padding-top: 23px;
+	padding-bottom: 23px;
+	background: #FFFFFF;
+}
+
+.f_s_condition_content{
+	width: 1200px;
+	margin: auto;
+}
+
+
+
+.f_s_midline{
+	border-bottom: 1px #E7E7E7 solid;
+	margin-bottom: 20px;
+	width: 1200px;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+.f_s_midnav{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.f_s_midnav span{
+	margin-right: 40px;
+	padding-bottom: 20px;
+}
+
+.f_s_midnav span a{
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	color: #999999;
+	text-decoration: none;
+}
+
+.f_s_price{
+	margin-bottom: 4px;
+	margin-left: 5px;
+}
+
+.f_s_midachange{
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	color: #1874DC !important;
+	text-decoration: none;
+	border-bottom: 3px #1874DC solid;
+	padding-bottom: 20px;
+}
+
+.f_s_pagination{
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+.f_s_pagination a{
+	text-decoration: none;
+	color: #666666;
+	margin-right: 10px;
+}
+
+.f_s_pagination a button{
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #666666;
+	text-decoration: none;
+	width: 45px;
+	height: 44px;
+	border: none;
+	background-color: #FFFFFF;
+	display: inline-block;
+	outline: medium;
+	margin-right: 10px;
+}
+
+button.f_s_pagination_active{
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	color: #FFFFFF !important;
+	text-decoration: none;
+	width: 45px;
+	height: 44px;
+	border: none;
+	background-color: #1874dc !important;
+	display: inline-block;
+	outline: medium;
+	margin-right: 10px;
+}
+
+button.f_s_paginationfirst{
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+button.f_s_paginationlast{
+	padding-left: 1px;
+	padding-right: 1px;
+	margin-right: 0px !important;
+}
+
+.f_s_showstate{
+	display: inline-block;
+}
+
+div.f_s_searchbar{
+	background: url(../img/fuwu_bg.jpg);
+	width: 100%;
+	height: 106px;
+}
+
+div.f_s_searchbar > div{
+	width: 935px;
+	height: 46px;
+	margin: auto;
+	position: relative;
+}
+
+div.f_s_searchbox{
+	width: 935px;
+	height: 46px;
+	position: absolute;
+	top: 30px;
+}
+
+div.f_s_searchbox select{
+	width: 100px;
+	height: 46px;
+	outline: medium;
+	border: none;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #666666;
+	float: left;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	background: #FFFFFF url(../img/yinghui_xiala.png);
+	background-repeat: no-repeat;
+	background-position: 90% 50%;
+	padding-left: 30px;
+}
+
+div.f_s_searchbox input:nth-child(2)::-webkit-input-placeholder{ /* WebKit*/
+    color:    #999999;
+    font-size: 14px;
+}
+div.f_s_searchbox input:nth-child(2)::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #999999;
+    font-size: 14px;
+}
+div.f_s_searchbox input:nth-child(2)::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #999999;
+    font-size: 14px;
+}
+div.f_s_searchbox input:nth-child(2):-ms-input-placeholder { /* IE 10+ */
+    color:    #999999;
+    font-size: 14px;
+}
+
+div.f_s_searchbox input:nth-child(2){
+	width: 690px;
+	height: 46px;
+	outline: medium;
+	border: none;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #999999;
+	float: left;
+	padding-left: 30px;
+}
+
+div.f_s_searchbox input + input{
+	width: 145px;
+	height: 46px;
+	outline: medium;
+	border: none;
+	font-family: "microsoft yahei";
+	font-size: 18px;
+	color: #FFFFFF;
+	background-color: #1874dc;
+	float: left;
+}

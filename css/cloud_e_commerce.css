@@ -1,0 +1,198 @@
+.c_ec_headdiv{
+	width: 100%;
+	height: 100%;
+}
+
+.c_ec_headimg{
+	width:100%;
+	height: 460px;
+}
+
+.c_ec_middiv{
+	width: 100%;
+	height: 400px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+.c_ec_middiv > div {
+	width: 960px;
+	height: 260px;
+	position: absolute;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0; 
+}
+
+.c_ec_middivinfo_1,.c_ec_middivinfo_2{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.c_ec_middivinfo_2{
+	width: 380px;
+}
+
+.c_ec_middivinfo_2 div:first-child{
+	font-family: "microsoft yahei";
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+}
+
+.c_ec_middivinfo_2 div:first-child > span{
+	font-family: "microsoft yahei";
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+	border-bottom: 2px #1874DC solid;
+	padding-bottom: 10px;
+}
+
+.c_ec_middivinfo_2 div + div{
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	color: #666666;
+	padding-top: 20px;
+	line-height: 30px;
+}
+
+.c_ec_middivsapce{
+	margin-left: 120px;
+}
+
+.c_ec_middivcolor{
+	background-color: #F8F8F8;
+}
+
+.c_ec_downdiv{
+	width: 100%;
+	height: 400px;
+	background-color: #1874dc;
+	position: relative;
+}
+
+.c_ec_downdiv > div {
+	width: 960px;
+	height: 220px;
+	position: absolute;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0; 
+	text-align: center;
+}
+
+.c_ec_downdiv div div:first-child{
+	font-family: "microsoft yahei";
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+
+.c_ec_wordline{
+	border-bottom: 2px #FFFFFF solid;
+	width: 20px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+
+.c_ec_downword{
+	font-family: "microsoft yahei";
+	font-size: 18px;
+	color: #FFFFFF;
+	padding-top: 20px;
+}
+
+.c_ec_downword span{
+	font-family: "microsoft yahei";
+	font-size: 18px;
+	color: #FFFFFF;
+	padding-top: 20px;
+}
+
+.c_ec_downword span:first-child{
+	margin-right: 280px;
+}
+
+.c_ec_downword span:last-child{
+	margin-left: 280px;
+}
+
+.c_ec_downnext{
+	margin-left: 45px;
+	margin-right: 45px;
+}
+
+.c_ec_bottomdiv{
+	width: 100%;
+	height: 400px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+.c_ec_bottomdiv > div {
+	width: 1200px;
+	height: 200px;
+	position: absolute;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0; 
+	text-align: center;
+}
+
+.c_ec_bottomdiv div div:first-child{
+	font-family: "microsoft yahei";
+	font-weight: bold;
+	font-size: 20px;
+	color: #000;
+}
+
+.c_ec_wordline_white{
+	border-bottom: 2px #1874dc solid;
+	width: 20px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.c_ec_bottomimgarrow01{
+	position: absolute;
+	top: 65%;
+	left: 0px;
+}
+
+.c_ec_bottomimgarrow02{
+	position: absolute;
+	top: 65%;
+	right: 0px;
+}
+
+.c_ec_bottomimg{
+	width: 120px;
+	height: 120px;
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.06);
+}
+
+.c_ec_box{
+	width: 1040px;
+	height: 130px;
+	margin: auto;
+}
+
+.c_ec_box img{
+	float: left;
+	margin: 5px 5px 5px 5px;
+}
+
+.c_ec_boxcontainer{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.c_ec_imglist{
+	width: 2080px;
+	position: absolute;
+	z-index: 5;
+}
+

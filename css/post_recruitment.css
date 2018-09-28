@@ -1,0 +1,103 @@
+body{
+	background: #F8F8F8;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	display: inline;
+}
+
+.p_r_name{
+	color: #333333;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	padding-right: 5%;
+}
+
+.p_r_time{
+	color: #999999;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+}
+
+.p_r_ul a{
+	font-family: "microsoft yahei";
+	color: #1874dc;
+	text-decoration: none;
+}
+
+.p_r_ul li:first-child + li + li a{
+	font-family: "microsoft yahei";
+	color: #ff0000;
+	text-decoration: none;
+}
+
+.p_r_main{
+	width: 900px;
+	background: #FFFFFF;
+	position: relative;
+}
+
+.p_r_div{
+	padding: 20px 60px 158px 60px;	
+}
+
+.p_r_ul{
+	padding-left: 0px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin: 0px;
+}
+
+.p_r_dashed{
+	width: 100%;
+	height: 0;
+	border-bottom: #E7E7E7 1px dashed;
+}
+
+.p_r_edit,.p_r_view,.p_r_delete{
+	float: right;
+}
+
+.p_r_edit{
+	padding-right: 10px;
+}
+
+.p_r_delete{
+	padding-left: 10px;
+}
+
+.p_r_view:before{
+	content: "|";
+	color: #D5D5D5;
+	padding-right: 10px;
+}
+
+.p_r_view:after{
+	content: "|";
+	color: #D5D5D5;
+	padding-left: 10px;
+}
+
+.p_r_btnd{
+	/*margin-top: 40px;
+	margin-bottom: 100px;*/
+	position: absolute;
+	right: 60px;
+	bottom: 80px;
+}
+
+.p_r_btn{
+	border: none;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	width: 114px;
+	height: 38px;
+	background: #1874dc;
+	color: #FFFFFF;
+	outline: medium;
+	float: right;
+}
