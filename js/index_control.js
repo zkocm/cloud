@@ -59,7 +59,10 @@ function cloud_e_commerce(){
 }
 
 function xph(){
-	$("#index_content").load("xph.html");
+	$("#index_content").load("xph.html",function(result){
+		$result = $(result); 
+        $result.find("script").appendTo('#index_content');
+	});
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
@@ -113,10 +116,10 @@ function adm_left_navigation(){
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
 
-/*function adm_left_navigation(){
+function nor_left_navigation(){
 	$("#index_content").load("nor_left_navigation.html");
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
-}*/
+}
 
 function index(){
 	window.location.reload();
