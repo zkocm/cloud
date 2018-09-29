@@ -51,6 +51,6 @@ function CollectService(){
 }
 
 function Preview_PublishTask_Edit(){
-	$(".showleftnavigation").hide().load("Preview_PublishTask_Edit.html").fadeIn();
+	$(".showleftnavigation").hide().load("Preview_PublisTask_Edit.html").fadeIn();
 	$("html,body").finish().animate({"scrollTop":"0px"},0);
 }
