@@ -1,3 +1,5 @@
+$(function(){
+	
 
 $("#main").height('580px');
 $("#main").width('1200px');
@@ -117,3 +119,5 @@ option = {
 
 // 使用刚指定的配置项和数据显示图表。
 myChart.setOption(option);
+
+});
