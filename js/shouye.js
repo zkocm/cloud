@@ -105,7 +105,7 @@ $(function(){
 	            type:'pie',
 	            radius: ['59%', '73%'],
 	            avoidLabelOverlap: false,
-	            center:['30%', '50%'],
+	            center:['33%', '50%'],
 	            label: {
 	                normal: {
 	                    show: true,
