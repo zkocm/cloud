@@ -19,6 +19,7 @@ a{
 .NewYoung_logo{
 	height: 460px;
 	background-image: url(../img/ny_banner.png);
+	background-size: 100% 100%;
 }
 
 .NewYoung_university_tilte ,.NewYoung_GuestTeam_tilte ,.NewYoung_Elite_tilte{
@@ -198,7 +199,7 @@ a{
     /*position: absolute;*/
     float: left;
     height: 277px;
-    width: 260px;
+ /*   width: 260px;*/
     margin-right: 20px;
     text-align: center;
 }
