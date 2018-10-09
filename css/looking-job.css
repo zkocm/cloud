@@ -364,7 +364,7 @@ div.f_s_searchbox input + input{
 .content-body .item .top .nav-2{
     position: relative;
     height: 32px;
-    border-bottom: 1px dashed #d5d5d5;
+    border-bottom: 1px dashed #e7e7e7;
 }
 .content-body .item .top .nav-1 .left{
     position: absolute;
@@ -487,6 +487,10 @@ div.f_s_searchbox input + input{
     text-decoration: none;
 }
 .f-pagination a:hover{
+    background-color: #1874dc;
+    color: #FFFFFF;
+}
+.f-pagination .cf-first{
     background-color: #1874dc;
     color: #FFFFFF;
 }

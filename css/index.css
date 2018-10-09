@@ -22,7 +22,7 @@ p{
     margin: 0px;
 }
 .wrapper{
-    width: 100%;
+    width: 1899px;
     height: 75px;
     background-color: #fff;
     position:fixed;
@@ -30,6 +30,9 @@ p{
     /*box-shadow: 0px 3px 3px rgba(0,0,0,.1);*/
     z-index:110;
     top:0px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
 }
 
 .nav{

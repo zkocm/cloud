@@ -34,7 +34,7 @@ ul{
     height: 696px;
     position: relative;
     z-index: -1;
-
+    width: 1899px;
 }
 .shuffling ul{
     display: block;
@@ -193,6 +193,7 @@ ul{
 .sy-xxj{
     background-image: url(../img/h_bg_xinxiangjun.jpg);
     height: 731px;
+    width: 1899px;
 }
 .sy-xxj .title{
     font-size: 22px;
@@ -293,6 +294,7 @@ ul{
     position: relative;
     background-image: url(../img/h_bg_xinshangtong.jpg);
     height: 445px;
+    width: 1899px;
 }
 .sy-szt-content{
     position: absolute;
@@ -389,6 +391,7 @@ ul{
 .sy-xph{
     height: 560px;
     background-color: #F8F8F8;
+    width: 100%;
 }
 
 .sy-xph .title{
@@ -399,12 +402,17 @@ ul{
     padding-top: 60px;
     /* margin-top: 60px; */
     color: #333;
+    width: 1200px;
 }
 .pie{
+    position: relative;
     height: 460px;
-    width: 1899px;
+    width: 100%;
 }
 #main{
+    position: absolute;
+    left: 0;
+    right: 0;
     width: 1200px;
     height:450px;
     margin: 0 auto;
@@ -475,11 +483,19 @@ ul{
     font-size: 16px;
     color: #333;
 }
+.hall-content .item-l .text .text-job a{
+    text-decoration: none;
+    color: inherit;
+}
 .hall-content .item-l .text .text-company{
     position: absolute;
     bottom: 0;
     font-size: 16px;
     color: #999;
+}
+.hall-content .item-l .text .text-company a{
+    text-decoration: none;
+    color: inherit;
 }
 .hall-content .item-l .text p{
     width: auto;
@@ -529,6 +545,10 @@ ul{
     top: 0px;
     font-size: 16px;
     color: #333;
+}
+.hall-content .item-l .text .text-name a{
+    text-decoration: none;
+    color: inherit;
 }
 .hall-content .item-l .text .text-record{
     position: absolute;
@@ -588,6 +608,7 @@ ul{
     font-size: 14px;
     color: #999;
     float: right;
+    text-decoration: none;
 }
 .outsourced-content .item{
     position: relative;
@@ -613,11 +634,19 @@ ul{
     font-size: 16px;
     color: #333;
 }
+.outsourced-content .item-l .text .text-job a{
+    text-decoration: none;
+    color: inherit;
+}
 .outsourced-content .item-l .text .text-company{
     position: absolute;
     bottom: 0;
     font-size: 16px;
     color: #999;
+}
+.outsourced-content .item-l .text .text-company a{
+    text-decoration: none;
+    color: inherit;
 }
 .outsourced-content .item-l .text p{
     width: auto;
@@ -653,6 +682,7 @@ ul{
     font-size: 14px;
     color: #999;
     float: right;
+    text-decoration: none;
 }
 .outsourced-content .list-talent .item{
     position: relative;
@@ -664,6 +694,10 @@ ul{
     top: 0px;
     font-size: 16px;
     color: #333;
+}
+.outsourced-content .item-l .text .text-name a{
+    text-decoration: none;
+    color: inherit;
 }
 .outsourced-content .item-l .text .text-record{
     position: absolute;

@@ -12,6 +12,11 @@ $(function(){
 
 });
 //轮播
+$(".right-arrow").hover(function () {
+	$(this).find("img").attr("src","../img/hezuogaoxiao_02y.png");
+},function () {
+    $(this).find("img").attr("src","../img/hezuogaoxiao06.png");
+});
 $(".right-arrow").click(function () {
     if( $(".gx-list").css("left")=='-1400px'){
         $(".gx-list").css('left','0px');
@@ -20,6 +25,11 @@ $(".right-arrow").click(function () {
         // $(this).stop();
     });
 
+});
+$(".left-arrow").hover(function () {
+    $(this).find("img").attr("src","../img/hezuogaoxiao05.png");
+},function () {
+    $(this).find("img").attr("src","../img/hezuogaoxiao_z.png");
 });
 $(".left-arrow").click(function () {
     if( $(".gx-list").css("left")=='0px'){
