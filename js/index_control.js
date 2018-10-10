@@ -33,7 +33,6 @@ function index(){
 		}
 	}
 	urlLoad(sendId,sendUrl);
-	addhistory(sendUrl);
 }
 
 
