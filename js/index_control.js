@@ -16,19 +16,30 @@ window.onpopstate = function(){
 	urlLoad(sendId,currentUrl);
 }
 
-$(function(){
-	index();
-	$("#foot").hide().fadeIn(5000);
-});
+function sendSearchUrl(sendUrl){
+	window.open("index.html?flag="+sendUrl);
+}
 
 function index(){
 	var sendUrl = "shouye.html";
 	if(window.history.state){
 		sendUrl = window.history.state.url;
 	}
+	if(window.location.search){
+		var afterUrl =  window.location.search.substring(1);
+		if(afterUrl.indexOf('flag') != -1){
+			var afterEqual = afterUrl.substring(afterUrl.indexOf('=')+1);
+			sendUrl = afterEqual+".html";
+		}
+	}
 	urlLoad(sendId,sendUrl);
-	addhistory(sendUrl);
 }
+
+
+$(function(){
+	index();
+	$("#foot").hide().fadeIn(5000);
+});
 
 function shouye(){
 	var sendUrl = "shouye.html";
@@ -43,9 +54,8 @@ function import_consult(){
 }
 
 function InformationDetails(){
-	var sendUrl = "InformationDetails.html";
-	urlLoad(sendId,sendUrl);
-	addhistory(sendUrl);
+	var sendUrl = "InformationDetails";
+	sendSearchUrl(sendUrl)
 }
 
 function szt(){
@@ -115,15 +125,13 @@ function looking_job(){
 }
 
 function position_details(){
-	var sendUrl = "position-details.html";
-	urlLoad(sendId,sendUrl);
-	addhistory(sendUrl);
+	var sendUrl = "position-details";
+	sendSearchUrl(sendUrl)
 }
 
 function CompanyDetails(){
-	var sendUrl = "CompanyDetails.html";
-	urlLoad(sendId,sendUrl);
-	addhistory(sendUrl);
+	var sendUrl = "CompanyDetails";
+	sendSearchUrl(sendUrl)
 }
 
 function discovery_talent(){
@@ -133,9 +141,8 @@ function discovery_talent(){
 }
 
 function talent_details(){
-	var sendUrl = "talent-details.html";
-	urlLoad(sendId,sendUrl);
-	addhistory(sendUrl);
+	var sendUrl = "talent-details";
+	sendSearchUrl(sendUrl)
 }
 
 function find_task(){
@@ -174,13 +181,9 @@ function nor_left_navigation(){
 	addhistory(sendUrl);
 }
 
-function index(){
-	var sendUrl = "shouye.html";
-	urlLoad(sendId,sendUrl);
-}
-
 function change_page(){
 	var sendUrl = $("#search_head option:selected").val();
 	urlLoad(sendId,sendUrl);
 	addhistory(sendUrl);
 }
+
