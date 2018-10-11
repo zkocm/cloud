@@ -55,7 +55,7 @@ function import_consult(){
 
 function InformationDetails(){
 	var sendUrl = "InformationDetails";
-	sendSearchUrl(sendUrl)
+	sendSearchUrl(sendUrl);
 }
 
 function szt(){
@@ -126,12 +126,12 @@ function looking_job(){
 
 function position_details(){
 	var sendUrl = "position-details";
-	sendSearchUrl(sendUrl)
+	sendSearchUrl(sendUrl);
 }
 
 function CompanyDetails(){
 	var sendUrl = "CompanyDetails";
-	sendSearchUrl(sendUrl)
+	sendSearchUrl(sendUrl);
 }
 
 function discovery_talent(){
@@ -142,7 +142,7 @@ function discovery_talent(){
 
 function talent_details(){
 	var sendUrl = "talent-details";
-	sendSearchUrl(sendUrl)
+	sendSearchUrl(sendUrl);
 }
 
 function find_task(){
@@ -164,9 +164,8 @@ function gywm(){
 }
 
 function ActivityDetails(){
-	var sendUrl = "ActivityDetails.html";
-	urlLoad(sendId,sendUrl);
-	addhistory(sendUrl);
+	var sendUrl = "ActivityDetails";
+	sendSearchUrl(sendUrl);
 }
 
 function adm_left_navigation(){
@@ -187,3 +186,27 @@ function change_page(){
 	addhistory(sendUrl);
 }
 
+function more_looking_job(){
+	var sendUrl = "looking-job";
+	sendSearchUrl(sendUrl);
+}
+
+function more_discovery_talent(){
+	var sendUrl = "discovery_talent";
+	sendSearchUrl(sendUrl);
+}
+
+function more_find_task(){
+	var sendUrl = "find_task";
+	sendSearchUrl(sendUrl);
+}
+
+function more_find_server(){
+	var sendUrl = "find_server";
+	sendSearchUrl(sendUrl);
+}
+
+function more_import_consult(){
+	var sendUrl = "import_consult";
+	sendSearchUrl(sendUrl);
+}
