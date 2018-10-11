@@ -72,3 +72,8 @@ function preview_CompanyProfile(){
 	var adm_sendUrl = "preview_CompanyProfile.html";
 	adm_urlLoad(adm_sendId,adm_sendUrl);
 }
+
+function preview_hiring(){
+	var adm_sendUrl = "preview_hiring.html";
+	adm_urlLoad(adm_sendId,adm_sendUrl);
+}
