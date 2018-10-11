@@ -77,3 +77,8 @@ function preview_hiring(){
 	var adm_sendUrl = "preview_hiring.html";
 	adm_urlLoad(adm_sendId,adm_sendUrl);
 }
+
+function Preview_PublishTask_Edit(){
+	var adm_sendUrl = "Preview_Company_PublisTask_Edit.html";
+	adm_urlLoad(adm_sendId,adm_sendUrl);
+}
