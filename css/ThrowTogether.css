@@ -22,7 +22,19 @@
 }
 
 .throwtogether_industry_logo{
+	overflow: hidden;
 	float: left;
+}
+
+.throwtogether_industry_logo img{
+	-o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.throwtogether_industry_logo:hover img{
+	transform: scale(1.05);
 }
 
 .throwtogether_industry_name{
