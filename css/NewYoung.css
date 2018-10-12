@@ -221,7 +221,7 @@ a{
 }
 
 .NewYoung_gx-picture img:hover,.NewYoung_GuestTeam_a img:hover,.NewYoung_GuestTeam_d img:hover,.NewYoung_Elite_img img:hover{
-	transform: scale(1.2);
+	transform: scale(1.05);
 }
 .NewYoung_gx-text{
     color: #333;
