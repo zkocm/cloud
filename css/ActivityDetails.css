@@ -30,6 +30,8 @@
 	text-decoration: none;
 	color: #999999;
 }
+.activitydetails_position a:hover{
+	color: #1874DC;
 }
 
 .activitydetails_isolate{

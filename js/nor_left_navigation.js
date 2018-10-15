@@ -13,7 +13,7 @@ $(function(){
 });
 
 $(function(){
-	var nor_sendUrl = "person_resume.html";
+	var nor_sendUrl = "post_person_resume.html";
 	nor_urlLoad(nor_sendId,nor_sendUrl);
 });
 

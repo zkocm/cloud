@@ -56,6 +56,25 @@
 	line-height: 30px;
 }
 
+.eb_cc_hidden {
+    overflow: hidden;
+}
+
+.eb_cc_middivinfo_1 img{
+	transition: all .3s ease-out 0s;
+	-moz-transition:  all .3s ease-out 0s;
+	-webkit-transition:  all .3s ease-out 0s;
+	-o-transition:  all .3s ease-out 0s;
+}
+
+.eb_cc_middivinfo_1 img:hover{
+	transform: scale(1.05);
+	-ms-transform:scale(1.05);
+	-moz-transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+	-o-transform:scale(1.05);
+}
+
 .eb_cc_middivsapce{
 	margin-left: 120px;
 }
