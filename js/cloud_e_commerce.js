@@ -8,7 +8,7 @@ $(function(){
 	$(".c_ec_pre,.c_ec_next").hover(function(){
 		clearInterval(timer);
 	},function(){
-		changeImg();	
+//		changeImg();	
 	});
 	
 	//点击向左图标根据cur进行上一个图片处理
@@ -53,7 +53,7 @@ $(function(){
 	}
 	
 	//调用函数
-	changeImg();
+//	changeImg();
 	
 	//图片切换函数
 	function changeTo(num){
