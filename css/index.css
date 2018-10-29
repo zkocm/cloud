@@ -222,10 +222,10 @@ p{
 	    margin: 0 auto;
 	}
 }
-
 @media screen and (max-width: 1899px) {
     body{
         overflow-x: hidden;
+       /* background-color: blue;*/
     }
     .index_content{
         width: 100%;
@@ -233,4 +233,3 @@ p{
     }
 
 }
-

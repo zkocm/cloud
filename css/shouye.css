@@ -3,21 +3,7 @@
     padding: 0;
     font-family: "Microsoft YaHei UI";
 }
-.sy-wrapper{
 
-}
-@media only screen and (min-width: 1899px) {
-    .sy-wrapper{
-        width: 1899px;
-        margin: 0 auto;
-    }
-}
-/*@media screen and (max-width: 1600px) {*/
-
-    /*.shuffling{*/
-        /*width: 1600px;*/
-    /*}*/
-/*}*/
 .sy-wrapper .title{
     text-align: center;
 }
@@ -37,12 +23,10 @@ ul{
 }
 .shuffling{
     background: url(../img/banner01.jpg) no-repeat center center;
-    background-size:cover;
+    background-size: cover;
     height: 696px;
     position: relative;
     z-index: -1;
-    /*width: 1899px;*/
-
 }
 .shuffling ul{
     display: block;
@@ -200,9 +184,8 @@ ul{
 }
 .sy-xxj{
     background: url(../img/h_bg_xinxiangjun.jpg) no-repeat center center;
-    background-size:cover;
+    background-size: cover;
     height: 731px;
-    /*width: 1899px;*/
 }
 .sy-xxj .title{
     font-size: 22px;
@@ -302,9 +285,8 @@ ul{
 .sy-szt{
     position: relative;
     background: url(../img/h_bg_xinshangtong.jpg) no-repeat center center;
-    background-size:cover;
+    background-size: cover;
     height: 445px;
-    /*width: 1899px;*/
 }
 .sy-szt-content{
     position: absolute;

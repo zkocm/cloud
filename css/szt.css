@@ -28,11 +28,9 @@ ul{
     background-color: #f8f8f8;
 }
 .xph-head{
-    width: 1899px;
     height: 460px;
-    background-image: url(../img/szt_bg.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background: url(../img/szt_bg.png) no-repeat center center;
+    background-size: cover;
 }
 .xph-body{
     position: relative;
